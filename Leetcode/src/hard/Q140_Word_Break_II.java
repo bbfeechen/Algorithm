@@ -9,36 +9,41 @@ import java.util.Set;
 
 public class Q140_Word_Break_II {
 	public static List<String> wordBreak(String s, Set<String> dict) {
-        Map<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
-        return wordBreakHelper(s,dict,map);
+        Map<String, List<String>> map = new HashMap<String, List<String>>();
+        return dfs(s, dict, map);
     }
-    
-    public static ArrayList<String> wordBreakHelper(String s, Set<String> dict, Map<String, ArrayList<String>> memo){
-        if(memo.containsKey(s)) return memo.get(s);
-        ArrayList<String> result = new ArrayList<String>();
-        int n = s.length();
-        if(n <= 0) return result;
-        for(int len = 1; len <= n; ++len) {
-            String subfix = s.substring(0,len);
-            if(dict.contains(subfix)) {
-                if(len == n) {
-                    result.add(subfix);
-                } else {
-                    String prefix = s.substring(len);
-                    ArrayList<String> tmp = wordBreakHelper(prefix, dict, memo);
-                    for(String item:tmp) {
-                        item = subfix + " " + item;
-                        result.add(item);
-                    }
-                }
-            }
-        }
-        memo.put(s, result);
-        return result;
-    }
+	
+	private static List<String> dfs(String s, Set<String> dict, Map<String, List<String>> map) {
+		if(map.containsKey(s)) {
+			return map.get(s);
+		}
+		List<String> result = new ArrayList<String>();
+		if(s.length() == 0) {
+			return result;
+		}
+		
+		for(int i = 1; i <= s.length(); i++) {
+			String prefix = s.substring(0, i);
+			if(dict.contains(prefix)) {
+				if(i == s.length()) {
+					result.add(prefix);
+				} else {
+					String suffix = s.substring(i);
+					List<String> tmp = dfs(suffix, dict, map);
+					for(String str : tmp) {
+						str = prefix + " " + str;
+						result.add(str);
+					}
+				}
+			}
+		}
+		map.put(s, result);
+		return result;
+	}
+   
 
 	public static void main(String[] args) {
-		String s = "catsanddoge";
+		String s = "catsanddog";
 		Set<String> dict = new HashSet<String>(){{ add("cat"); add("cats"); add("and"); add("sand"); add("dog"); }};
 		List<String> list = wordBreak(s, dict);
 		System.out.println(list);
