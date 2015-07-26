@@ -41,26 +41,36 @@ public class Q95_Unique_Binary_Search_Trees_II {
 	}
 	
 	private static void printBST(TreeNode root, int level) {
-		for (int i = 0; i < level; i++) {  
-            System.out.print("--");  
-        }  
-        if (root != null) {  
-            System.out.println(root.val);  
-        } else {  
-            System.out.println("*");  
-            return;  
-        }  
-        printBST(root.left, level + 1);  
-        printBST(root.right, level + 1);  
+		Queue<TreeNode> queue = new LinkedList<TreeNode>();
+		queue.offer(root);
+		int currLevel = 1;
+		while(!queue.isEmpty()) {
+			if(currLevel > level) {
+				return;
+			}
+			int size = queue.size();
+			for(int i = 0; i < size; i++) {
+				TreeNode node = queue.poll();
+				if(node != null) {
+					System.out.print(node.val);
+					queue.offer(node.left);
+					queue.offer(node.right);
+				} else {
+					System.out.print("#");
+					queue.offer(null);
+					queue.offer(null);
+				}
+			}
+			System.out.println();
+			currLevel++;
+		}
 	}
 	
 	private static int getLevel(TreeNode root) {
-		int level = 1;
-		while(root != null) {
-			root = root.left;
-			level++;
+		if(root == null) {
+			return 0;
 		}
-		return level;
+		return Math.max(getLevel(root.left), getLevel(root.right)) + 1;
 	}
 
 	public static void main(String[] args) {
