@@ -1,66 +1,57 @@
 package medium;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class Q49_Anagrams {
-	public static class ListNode {
-		int val;
-		ListNode next;
-		public ListNode(int val) {
-			this.val = val;
-		}
-	}
-	
-	public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-		ListNode dummy = new ListNode(0);
-        ListNode pNode = dummy;
-        int carry = 0;
-        while(l1 != null && l2 != null) {
-            int sum = l1.val + l2.val + carry;
-            pNode.next = new ListNode(sum % 10);
-            carry = sum / 10;
-            pNode = pNode.next;
-            l1 = l1.next;
-            l2 = l2.next;
+	public static List<String> anagrams(String[] strs) {
+        List<String> result = new ArrayList<String>();
+        if(strs == null || strs.length == 0) {
+            return result;
         }
-        if(l1 != null) {
-            while(l1 != null) {
-                int sum = l1.val + carry;
-                pNode.next = new ListNode(sum % 10);
-                carry = sum / 10;
-                pNode = pNode.next;
-                l1 = l1.next;
+        
+        Map<Integer, ArrayList<String>> map = new HashMap<Integer, ArrayList<String>>();
+        for(String str : strs) {
+            int key = getHash(str);
+            if(!map.containsKey(key)) {
+                map.put(key, new ArrayList<String>());
             }
-        } else {
-            while(l2 != null) {
-                int sum = l2.val + carry;
-                pNode.next = new ListNode(sum % 10);
-                carry = sum / 10;
-                pNode = pNode.next;
-                l2 = l2.next;
+            map.get(key).add(str);
+        }
+        for(ArrayList<String> list : map.values()) {
+            if(list.size() > 1) {
+                result.addAll(list);
             }
         }
-        if(carry != 0) {
-            pNode.next = new ListNode(carry);
+        return result;
+        
+    }
+    
+    private static int getHash(String str) {
+        int[] count = new int[26];
+        for(char c : str.toCharArray()) {
+        	count[c - 'a']++;
         }
-        return dummy.next;
-	}
-	
-	public static void main(String[] args) {
-		ListNode l1 = new ListNode(2);
-		ListNode p1 = l1;
-		p1.next = new ListNode(4);
-		p1 = p1.next;
-		p1.next = new ListNode(3);
-		
-		ListNode l2 = new ListNode(5);
-		ListNode p2 = l2;
-		p2.next = new ListNode(6);
-		p2 = p2.next;
-		p2.next = new ListNode(4);
-		
-		ListNode result = addTwoNumbers(l1, l2);
-		while(result != null) {
-			System.out.print(result.val + " ");
-			result = result.next;
-		}
-	}
+        
+        int a = 3, b = 5, hash = 0;
+        for(int num : count) {
+        	hash = hash * a + num;
+            a = a * b;
+        }
+        return hash;
+    }
+    
+    public static void main(String[] args) {
+    	String[] strs = {"", ""};
+    	List<String> result = anagrams(strs);
+    	for(String str : result) {
+    		if(str != null && str.length() == 0) {
+    			System.out.print("# ");
+    		} else {
+    			System.out.print(str + " ");
+    		}
+    	}
+    }
 }
