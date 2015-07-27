@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-import javax.swing.tree.TreeNode;
+import easy.Q102_Binary_Tree_Level_Order_Traversal.TreeNode;
 
 
 public class Q145_Binary_Tree_Postorder_Traversal {
@@ -14,7 +14,22 @@ public class Q145_Binary_Tree_Postorder_Traversal {
 		 TreeNode(int x) { val = x; }
 	}	
 	
-	public static List<Integer> postorderTraversal(TreeNode root) {
+	public static List<Integer> postorderTraversalRecursively(TreeNode root) {
+		List<Integer> result = new ArrayList<Integer>();
+        if(root == null) {
+            return result;
+        }
+        if(root.left != null) {
+            result.addAll(postorderTraversalRecursively(root.left));
+        }
+        if(root.right != null) {
+            result.addAll(postorderTraversalRecursively(root.right));
+        }
+        result.add(root.val);
+        return result;
+	}
+	
+	public static List<Integer> postorderTraversalIteratively(TreeNode root) {
         List<Integer> result = new ArrayList<Integer>();
         if(root == null) {
             return result;
@@ -41,8 +56,28 @@ public class Q145_Binary_Tree_Postorder_Traversal {
     }
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		TreeNode root = new TreeNode(6);
+		TreeNode p = root;
+		p.left = new TreeNode(3);
+		p = p.left;
+		p.left = new TreeNode(1);
+		p.right = new TreeNode(4);
+		
+		TreeNode q = root;
+		q.right = new TreeNode(9);
+		q = q.right;
+		q.left = new TreeNode(7);
+		q.right = new TreeNode(10);
+		
+		List<Integer> result = postorderTraversalRecursively(root);
+		for(int i : result) {
+			System.out.print(i + " ");
+		}
+		System.out.println();
+		
+		result = postorderTraversalIteratively(root);
+		for(int i : result) {
+			System.out.print(i + " ");
+		}
 	}
-
 }
