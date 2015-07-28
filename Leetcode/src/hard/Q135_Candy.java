@@ -31,8 +31,7 @@ public class Q135_Candy {
     }
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int[] ratings = {1, 3, 5};
+		System.out.println(candy(ratings));
 	}
-
 }
