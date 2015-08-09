@@ -21,6 +21,9 @@ public class Q235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree {
 	}
 
 	public static void main(String[] args) {
+		TreeNode p = new TreeNode(2);
+		TreeNode q = new TreeNode(8);
+		
 		TreeNode root = new TreeNode(6);
 		root.left = new TreeNode(2);
 		root.right = new TreeNode(8);
@@ -33,7 +36,7 @@ public class Q235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree {
 		root.right.left = new TreeNode(7);
 		root.right.right = new TreeNode(9);
 		
-		TreeNode lca = lowestCommonAncestor(root, new TreeNode(2), new TreeNode(8));
+		TreeNode lca = lowestCommonAncestor(root, p, q);
 		System.out.println(lca.val);
 	}
 }
