@@ -12,9 +12,11 @@ public class Q15_3Sum {
 		}
 		Arrays.sort(nums);
 		for(int i = 0; i < nums.length - 2; i++) {
+			// mistake start
 			if(i != 0 && nums[i] == nums[i - 1]) {
 				continue;
 			}
+			// mistake end
 			int start = i + 1;
 			int end = nums.length - 1;
 			while(start < end) {
@@ -27,12 +29,14 @@ public class Q15_3Sum {
 					result.add(solution);
 					start++;
 					end--;
+					// mistake start
 					while(start < end && nums[start] == nums[start - 1]) {
 						start++;
 					}
 					while(end > start && nums[end] == nums[end + 1]) {
 						end--;
 					} 
+					// mistake end
 				} else if(sum < 0) {
 					start++;
 				} else {
