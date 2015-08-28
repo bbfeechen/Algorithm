@@ -31,8 +31,14 @@ public class Q46_Permutations {
     }
     
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int[] num = {1,2,3};
+		List<List<Integer>> result = permute(num);
+		for(List<Integer> list : result) {
+			System.out.print("[");
+			for(int i : list) {
+				System.out.print(i + "");
+			}
+			System.out.print("]");
+		}
 	}
-
 }
