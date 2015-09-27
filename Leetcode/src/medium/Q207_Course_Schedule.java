@@ -40,7 +40,8 @@ public class Q207_Course_Schedule {
         return true;
     }
      
-    private static boolean canFinishDFS(Map<Integer, Set<Integer>> map, boolean[] visited, boolean[] visiting, int i) {
+    private static boolean canFinishDFS(Map<Integer, Set<Integer>> map, 
+    		boolean[] visited, boolean[] visiting, int i) {
         if(visiting[i]) { 
             return false;
         }

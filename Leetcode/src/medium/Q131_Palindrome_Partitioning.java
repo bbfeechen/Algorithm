@@ -9,11 +9,12 @@ public class Q131_Palindrome_Partitioning {
             return result;
         }
         ArrayList<String> solution = new ArrayList<String>();
-        helper(result, solution, s, 0);
+        dfs(result, solution, s, 0);
         return result;
     }
     
-    private static void helper(ArrayList<ArrayList<String>> result, ArrayList<String> solution, String s, int index) {
+    private static void dfs(ArrayList<ArrayList<String>> result, 
+    		ArrayList<String> solution, String s, int index) {
         if(index == s.length()) {
             result.add(new ArrayList<String>(solution));
             return;
@@ -25,7 +26,7 @@ public class Q131_Palindrome_Partitioning {
                 continue;
             }
             solution.add(str);
-            helper(result, solution, s, i + 1);
+            dfs(result, solution, s, i + 1);
             solution.remove(solution.size() - 1);
         }
     }

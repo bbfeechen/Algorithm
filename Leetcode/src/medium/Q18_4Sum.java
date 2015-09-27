@@ -12,13 +12,17 @@ public class Q18_4Sum {
         }
         Arrays.sort(nums);
         for(int i = 0; i < nums.length - 3; i++) {
+        	// mistake start
             if(i != 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
+            // mistake end
             for(int j = i + 1; j < nums.length - 2; j++) {
+            	// mistake start
                 if(j != i + 1 && nums[j] == nums[j - 1]) {
                     continue;
                 }
+                // mistake end
                 int start = j + 1;
                 int end = nums.length - 1;
                 while(start < end) {

@@ -13,9 +13,10 @@ public class Q164_Maximum_Gap {
             max = Math.max(max, num[i]);
             min = Math.min(min, num[i]);
         }
-        
-        int gap = (int)Math.ceil((double)(max - min) / (num.length - 1));
-        ArrayList<ArrayList<Integer>> buckets = bucketSort(num, num.length - 1);
+        if(max == min) {
+        	return 0;
+        }
+        ArrayList<ArrayList<Integer>> buckets = bucketSort(num, num.length - 1, max, min);
         
         int maxGap = Integer.MIN_VALUE;
         int prevMAX = min;
@@ -31,16 +32,10 @@ public class Q164_Maximum_Gap {
         return maxGap;
     }
     
-    private static ArrayList<ArrayList<Integer>> bucketSort(int[] arr, int bucketCount) {
+    private static ArrayList<ArrayList<Integer>> bucketSort(int[] arr, int bucketCount, int max, int min) {
         ArrayList<ArrayList<Integer>> buckets = new ArrayList<ArrayList<Integer>>(bucketCount);
         for(int i = 0; i < bucketCount; i++) {
             buckets.add(new ArrayList<Integer>());
-        }
-        
-        int max = Integer.MIN_VALUE, min = Integer.MAX_VALUE;
-        for(int i = 0; i < arr.length; i++) {
-            max = Math.max(max, arr[i]);
-            min = Math.min(min, arr[i]);
         }
         
         int gap = (int)Math.ceil((double)(max - min) / bucketCount);

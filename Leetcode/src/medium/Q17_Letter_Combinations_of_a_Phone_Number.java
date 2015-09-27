@@ -24,18 +24,18 @@ public class Q17_Letter_Combinations_of_a_Phone_Number {
         map.put('9', new char[] {'w', 'x', 'y', 'z'});
         
         StringBuilder sb = new StringBuilder();
-        helper(result, map, sb, digits);
+        dfs(result, map, sb, digits);
         return result;
     }
     
-    private static void helper(List<String> result, Map<Character, char[]> map, StringBuilder sb, String digits) {
+    private static void dfs(List<String> result, Map<Character, char[]> map, StringBuilder sb, String digits) {
         if(sb.length() == digits.length()) {
             result.add(sb.toString());
             return;
         }
         for(char c : map.get(digits.charAt(sb.length()))) {
             sb.append(c);
-            helper(result, map, sb, digits);
+            dfs(result, map, sb, digits);
             sb.deleteCharAt(sb.length() - 1);
         }
     }

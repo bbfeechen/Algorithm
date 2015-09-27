@@ -2,8 +2,6 @@ package medium;
 
 import java.util.Stack;
 
-import easy.Q110_Balanced_Binary_Tree.TreeNode;
-
 public class Q173_Binary_Search_Tree_Iterator {
 	public static class TreeNode {
 		int val;

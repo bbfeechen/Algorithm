@@ -12,51 +12,49 @@ import java.util.Set;
 
 
 public class Q126_Word_Ladder_II {
-	public static List<List<String>> findLadders(String start, String end, Set<String> dict) {
+	public static List<List<String>> findLadders(String start, String end, Set<String> wordList) {
         List<List<String>> ladder = new ArrayList<List<String>>();
         Map<String, List<String>> map = new HashMap<String, List<String>>();
         Map<String, Integer> distance = new HashMap<String, Integer>();
-        dict.add(start);
-        dict.add(end);
-        
-        bfs(start, end, dict, map, distance);
+        wordList.add(start);
+        wordList.add(end);
+        bfs(start, end, wordList, map, distance);
         
         List<String> path = new ArrayList<String>();
-        dfs(start, end, map, distance, path, ladder);
+        dfs(start, end, ladder, path, map, distance);
         return ladder;
     }
     
-    private static void bfs(String start, String end, Set<String> dict, Map<String, List<String>> map,
-        Map<String, Integer> distance) {
+    private static void bfs(String start, String end, Set<String> wordList, 
+        Map<String, List<String>> map, Map<String, Integer> distance) {
         Queue<String> queue = new LinkedList<String>();
         queue.offer(start);
         distance.put(start, 0);
-        for(String s : dict) {
-            map.put(s, new ArrayList<String>());
+        for(String word : wordList) {
+            map.put(word, new ArrayList<String>());
         }
-        
         while(!queue.isEmpty()) {
             String curr = queue.poll();
-            List<String> nextList = expand(curr, dict);
+            List<String> nextList = expand(curr, wordList);
             for(String next : nextList) {
-                map.get(next).add(curr);
+                map.get(curr).add(next);
                 if(!distance.containsKey(next)) {
                     distance.put(next, distance.get(curr) + 1);
                     queue.offer(next);
                 }
             }
-        }    
+        }
     }
     
-    private static List<String> expand(String curr, Set<String> dict) {
+    private static List<String> expand(String curr, Set<String> wordList) {
         List<String> expansion = new ArrayList<String>();
         for(int i = 0; i < curr.length(); i++) {
-            for(char ch = 'a'; ch <= 'z'; ch++) {
-                if(ch == curr.charAt(i)) {
+            for(char c = 'a'; c <= 'z'; c++) {
+                if(c == curr.charAt(i)) {
                     continue;
                 }
-                String word = curr.substring(0, i) + ch + curr.substring(i + 1);
-                if(dict.contains(word)) {
+                String word = curr.substring(0, i) + c + curr.substring(i + 1);
+                if(wordList.contains(word)) {
                     expansion.add(word);
                 }
             }
@@ -64,8 +62,8 @@ public class Q126_Word_Ladder_II {
         return expansion;
     }
     
-    private static void dfs(String start, String curr, Map<String, List<String>> map,
-        Map<String, Integer> distance, List<String> path, List<List<String>> ladder) {
+    private static void dfs(String start, String curr, List<List<String>> ladder,
+        List<String> path, Map<String, List<String>> map, Map<String, Integer> distance) {
         path.add(curr);
         if(curr.equals(start)) {
             Collections.reverse(path);
@@ -74,7 +72,7 @@ public class Q126_Word_Ladder_II {
         } else {
             for(String next : map.get(curr)) {
                 if(distance.containsKey(next) && distance.get(curr) == distance.get(next) + 1) {
-                    dfs(start, next, map, distance, path, ladder);
+                    dfs(start, next, ladder, path, map, distance);
                 }
             }
         }
