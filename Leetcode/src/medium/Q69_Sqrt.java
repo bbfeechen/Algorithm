@@ -2,6 +2,12 @@ package medium;
 
 public class Q69_Sqrt {
 	public static int mySqrt(int x) {
+		if(x < 0) {
+			return -1;
+		}
+		if(x == 0 || x == 1) {
+			return x;
+		}
          long start = 0;
          long end = x;
          while(start <= end) {

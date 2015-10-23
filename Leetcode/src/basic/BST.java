@@ -12,7 +12,7 @@ public class BST {
 		private TreeNode left;
 		private TreeNode right;
 		
-		private TreeNode(int val) {
+		public TreeNode(int val) {
 			this.val = val;
 			this.left = null;
 			this.right = null;
@@ -111,7 +111,7 @@ public class BST {
 	
 	public List<Integer> preOrderTraversal(TreeNode root) {
 		List<Integer> result = new ArrayList<Integer>();
-		Stack<TreeNode> stack = new Stack();
+		Stack<TreeNode> stack = new Stack<TreeNode>();
 		stack.push(root);
 		while(!stack.isEmpty()) {
 			TreeNode node = stack.pop();
@@ -169,6 +169,31 @@ public class BST {
 		}
 		return result;
 	}
+	
+	public void serialize(TreeNode root, List<Integer> result) {
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.offer(root);
+        while(!queue.isEmpty()) {
+        	TreeNode node = queue.poll();
+            if (node == null) {
+                result.add(null);
+            }else {
+                result.add(node.val);
+                queue.add(node.left);
+                queue.add(node.right);
+            }
+        }
+    }
+	
+    public TreeNode deserialize(List<Integer> result, int idx) {
+        if (result.size() < 1 || idx < 0 || result.size() <= idx || result.get(idx) == null) {
+            return null;
+        }
+        TreeNode root = new TreeNode(result.get(idx));
+        root.left = deserialize(result, idx * 2 + 1);
+        root.right = deserialize(result, idx * 2 + 2);
+        return root;
+    }
 
 	public static void main(String[] args) {
 		BST bst = new BST();
@@ -183,5 +208,38 @@ public class BST {
 				System.out.print(i + " ");
 			}
 		}
+		System.out.println();
+		List<Integer> preorder = bst.preOrderTraversal(bst.root);
+		for(int i : preorder) {
+			System.out.print(i + " ");
+		}
+		System.out.println();
+		List<Integer> postorder = bst.postOrderTraversal(bst.root);
+		for(int i : postorder) {
+			System.out.print(i + " ");
+		}
+		System.out.println();
+		List<Integer> inorder = bst.inOrderTraversal(bst.root);
+		for(int i : inorder) {
+			System.out.print(i + " ");
+		}
+		System.out.println();
+		
+		List<Integer> result = new LinkedList<>();
+        bst.serialize(bst.root, result);
+        System.out.println(result);
+        TreeNode root = bst.deserialize(result, 0);
+        levelorder = bst.levelOrderTraversal(root);
+		for(List<Integer> list : levelorder) {
+			for(int i : list) {
+				System.out.print(i + " ");
+			}
+		}
+		System.out.println();
+		preorder = bst.preOrderTraversal(root);
+		for(int i : preorder) {
+			System.out.print(i + " ");
+		}
+		System.out.println();
 	}
 }

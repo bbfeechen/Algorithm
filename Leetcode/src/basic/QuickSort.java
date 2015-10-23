@@ -28,24 +28,21 @@ public class QuickSort {
 	}
 	
 	private int partition(int[] nums, int start, int end) {
-		int i = start;
-		int j = end + 1;
+		int i = start + 1;
+		int j = end;
 		int pivot = nums[start];
-		while(true) {
-			while(nums[++i] < pivot) {
-				if(i == end) {
-					break;
-				}
+		while(i <= j) {
+			if(nums[i] < pivot) {
+				i++;
+				continue;
 			}
-			while(nums[--j] > pivot) {
-				if(j == start) {
-					break;
-				}
-			}
-			if(i >= j) {
-				break;
+			if(nums[j] > pivot) {
+				j--;
+				continue;
 			}
 			swap(nums, i, j);
+			i++;
+			j--;
 		}
 		swap(nums, start, j);
 		return j;

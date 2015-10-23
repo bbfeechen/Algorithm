@@ -3,6 +3,15 @@ package secret;
 import java.util.HashMap;
 import java.util.Map;
 
+
+//Problem Description
+//
+//Given a string, find the length of the longest substring T that contains at most 2 distinct characters.
+//
+//For example, Given s = “eceba”,
+//
+//T is "ece" which its length is 3. 
+
 public class Q159_Longest_Substring_with_At_Most_Two_Distinct_Characters {
 	public static int lengthOfLongestSubstringTwoDistinct(String s) { 
 		int start = 0;
@@ -13,12 +22,10 @@ public class Q159_Longest_Substring_with_At_Most_Two_Distinct_Characters {
 			char c = s.charAt(i);
 			if(map.size() == 2 && !map.containsKey(c)) {
 				int minLast = s.length();
-				char charEndsMostLeft = ' ';
 				for(char ch : map.keySet()) {
 					int last = map.get(ch);
 					if(last < minLast) {
 						minLast = last;
-						charEndsMostLeft = c;
 					}
 				}
 				start = minLast + 1;
