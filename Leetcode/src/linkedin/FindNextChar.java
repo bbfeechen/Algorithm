@@ -28,6 +28,8 @@ public class FindNextChar {
 	public static void main(String[] args) {
 		char[] list = {'c', 'f', 'j', 'p', 'v'};
 		char[] target = {'a', 'c', 'f', 'k', 'v', 'z'};
-		for (char c : target) System.out.println(c + " -> " + findNextChar(list, c));
+		for (char c : target) {
+			System.out.println(c + " -> " + findNextChar(list, c));
+		}
 	}
 }

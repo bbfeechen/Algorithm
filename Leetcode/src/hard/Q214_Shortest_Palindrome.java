@@ -1,35 +1,24 @@
 package hard;
 
 public class Q214_Shortest_Palindrome {
-	public String shortestPalindrome(String s) {
-        if(s == null || s.length() < 2)
-            return s;
-        int index = 0;
-        for(int i = 0 ; i < s.length()*2-1 ; i++){
-            int left = i/2;
-            int right = i/2;
-            if(i%2 == 1)
-                right++;
-            if(helper(s, left, right)){
-                index = (i%2 == 1 ? right*2 : right*2+1);
+	public static String shortestPalindrome(String s) {
+        int j = 0;
+        for(int i = s.length() - 1; i >= 0; i--) {
+            if(s.charAt(i) == s.charAt(j)) {
+                j++;
             }
         }
-        
-        return new StringBuilder(s.substring(index)).reverse() + s;
-    }
-    
-    private boolean helper(String s, int left, int right) {
-        while(left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)){
-            left--;
-            right++;
+        if(j == s.length()) {
+            return s;
         }
-        if(left == -1)
-            return true;
-        return false;
+        String suffix = s.substring(j);
+        String mid = shortestPalindrome(s.substring(0, j));
+        String prefix = new StringBuilder(suffix).reverse().toString();
+        return prefix + mid + suffix;
     }
     
     public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		System.out.println(shortestPalindrome("aacecaaa"));
+		System.out.println(shortestPalindrome("abcd"));
 	}
 }

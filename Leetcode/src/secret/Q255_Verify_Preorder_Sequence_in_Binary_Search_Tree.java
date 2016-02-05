@@ -3,7 +3,7 @@ package secret;
 import java.util.Stack;
 
 public class Q255_Verify_Preorder_Sequence_in_Binary_Search_Tree {
-	public static boolean verifyPreorder(int[] preorder) {
+	public static boolean verifyPreorderIteratively(int[] preorder) {
         if (preorder == null || preorder.length <= 1) {
             return true;
         }
@@ -22,6 +22,39 @@ public class Q255_Verify_Preorder_Sequence_in_Binary_Search_Tree {
         }
          
         return true;
+    }
+	
+	// recursive
+	public boolean verifyPreorderRecursively(int[] preorder) {
+        if (preorder == null || preorder.length <= 1) {
+            return true;
+        }
+         
+        return verifyPreorderHelper(preorder, 0, preorder.length - 1);
+    }
+     
+    private boolean verifyPreorderHelper(int[] preorder, int lo, int hi) {
+        if (lo >= hi) {
+            return true;
+        }
+         
+        int root = preorder[lo];
+        int i = lo + 1;
+        while (i <= hi && preorder[i] < root) {
+            i++;
+        }
+         
+        int j = i;
+        while (j <= hi && preorder[j] > root) {
+            j++;
+        } 
+         
+        if (j <= hi) {
+            return false;
+        }
+         
+        return verifyPreorderHelper(preorder, lo + 1, i - 1) && 
+               verifyPreorderHelper(preorder, i, hi);
     }
 
 	public static void main(String[] args) {

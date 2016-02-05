@@ -20,9 +20,9 @@ public class uber_timelimit {
 	        Date curr = new Date();
 	        System.out.println(curr);
 	        queue.offer(curr);
-//	        while(!queue.isEmpty() && (curr.getTime() - queue.peek().getTime()) > timeLimit) {
-//	        	queue.poll();
-//	        }
+	        while(!queue.isEmpty() && (curr.getTime() - queue.peek().getTime()) > timeLimit) {
+	        	queue.poll();
+	        }
 	        if(queue.size() > capacity) { 
 	        	System.out.println("NO");
 	        } else { 

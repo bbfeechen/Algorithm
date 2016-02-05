@@ -1,50 +1,42 @@
 package snapchat;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class friendnum {
+	private static int sumDivisors(int a) {
+	    int s = 0, i;
+	    for(i = 1;i <= a/2; i++) {
+	        if(a % i == 0) {
+	            s += i;
+	        }
+	    }
+	    return s;
+	}
+	
     public static void main(String[] args) {
-        int intMain = 2;
-        int intBig = 1000;
-        
-        do {
-            List<Integer> listYakuSu1 = findYakuSu(intMain);
-            int intSum1 = addYakuSu(listYakuSu1);
-            if(intSum1 == intMain) {
-                System.out.println("self num:" + intSum1);
-            } else {
-                List<Integer> listYakuSu2 = findYakuSu(intSum1);
-                int intSum2 = addYakuSu(listYakuSu2);
-                if(intSum2 == intMain) {
-                    System.out.println("love num:" + intMain + "--" + intSum1);
-                }
-            }
-            intMain ++;
-        } while(intMain <= intBig);
-    }
-	    
-    public static int addYakuSu(List<Integer> listYakuSu) {
-        int sum = 0;
-        for(int i : listYakuSu) {
-            sum += i;
+    	int min = 1;
+        int max = 10000;
+        int n = max - min + 1;
+        int[] s = new int[n];
+        int i, j;
+
+        for (i = min; i <= max; i++) {
+            s[i - min] = sumDivisors (i);
         }
-        return sum;
-    }
-	    
-    public static List<Integer> findYakuSu(int intNum) {
-        List<Integer> listYakuSu = new ArrayList<Integer>();
-        listYakuSu.add(1);
-        int intRoot = (int)Math.sqrt(intNum);
-        for(int i = 2; i <= intRoot ; i++) {
-            int intPart = intNum / i;
-            if(intPart * i == intNum) {
-                listYakuSu.add(i);
-                if(intPart != i) {
-                    listYakuSu.add (intPart);
+
+        // search for perfect numbers
+        for (i = min; i <= max; i++) {
+            if (s[i - min] == i) {
+                System.out.println("perfect number: " + i);
+            }
+        }
+
+        // search for amicable pairs
+        for (i = min; i <= max; i++) {
+            for (j = i + 1; j <= max; j++) {
+                if ((s[i - min] == j) && (s[j - min] == i)) {
+                	System.out.println("amicable pair: " + i + " " + j);
                 }
             }
         }
-        return listYakuSu;
     }
 }

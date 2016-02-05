@@ -3,14 +3,14 @@ import java.util.HashMap;
 
 
 public class Q149_Max_Points_on_a_Line {
-	class Point {
+	static class Point {
 	     int x;
 	     int y;
 	     Point() { x = 0; y = 0; }
 	     Point(int a, int b) { x = a; y = b; }
 	}
 	 
-    public int maxPoints(Point[] points) {
+    public static int maxPoints(Point[] points) {
         if(points == null || points.length == 0) {
             return 0;
         }
@@ -44,7 +44,7 @@ public class Q149_Max_Points_on_a_Line {
     }
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Point[] points = { new Point(2, 3), new Point(3, 3), new Point(-5, 3) };
+		System.out.println(maxPoints(points));
 	}
 }

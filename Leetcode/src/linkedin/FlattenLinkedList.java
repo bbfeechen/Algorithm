@@ -31,11 +31,12 @@ public class FlattenLinkedList {
 		}
 	}
 
-	public static void push(Node root, int val) {
+	public static Node push(Node root, int val) {
 		Node node = new Node(val);
 		node.right = null;
 		node.down = root;
 		root = node;
+		return root;
 	}
 	
 	public static void print(Node node) {
@@ -72,22 +73,22 @@ public class FlattenLinkedList {
 	
 	public static void main(String[] args) {
 		Node root = null;
-		push(root, 30);
-		push(root, 8);
-		push(root, 7);
-		push(root, 5);
+		root = push(root, 30);
+		root = push(root, 8);
+		root = push(root, 7);
+		root = push(root, 5);
 		
-		push(root.right, 20);
-		push(root.right, 10);
+		root.right = push(root.right, 20);
+		root.right = push(root.right, 10);
 		
-		push(root.right.right, 50);
-		push(root.right.right, 22);
-		push(root.right.right, 19);
+		root.right.right = push(root.right.right, 50);
+		root.right.right = push(root.right.right, 22);
+		root.right.right = push(root.right.right, 19);
 		
-		push(root.right.right, 45);
-		push(root.right.right, 40);
-		push(root.right.right, 35);
-		push(root.right.right, 20);
+		root.right.right.right = push(root.right.right.right, 45);
+		root.right.right.right = push(root.right.right.right, 40);
+		root.right.right.right = push(root.right.right.right, 35);
+		root.right.right.right = push(root.right.right.right, 20);
 		
 		root = flatten(root);
 		print(root);

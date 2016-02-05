@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class The_Skyline_Problem {
-	public class Edge {
+	public static class Edge {
         int x;
         int height;
         boolean isStart;
@@ -18,7 +18,7 @@ public class The_Skyline_Problem {
         }
     }
     
-    public List<int[]> getSkyline(int[][] buildings) {
+    public static List<int[]> getSkyline(int[][] buildings) {
         List<int[]> result = new ArrayList<int[]>();
         if(buildings == null || buildings.length == 0 || buildings[0].length == 0) {
             return result;
@@ -68,8 +68,17 @@ public class The_Skyline_Problem {
     }
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int[][] buildings = {
+				  {1, 3, 3},
+				  {2, 4, 4},
+				  {5, 6, 1}
+		};
+		List<int[]> result = getSkyline(buildings);
+		for(int[] keypoints : result) {
+			for(int point : keypoints) {
+				System.out.print(point + " ");
+			}
+			System.out.println();
+		}
 	}
-
 }

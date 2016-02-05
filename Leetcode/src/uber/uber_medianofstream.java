@@ -7,32 +7,33 @@ import java.util.Queue;
 
 public class uber_medianofstream {
 	public static Queue<Integer> minHeap = new PriorityQueue<Integer>();
-	public static Queue<Integer> maxHeap = new PriorityQueue<Integer>(10, Collections.reverseOrder()); 
+	public static Queue<Integer> maxHeap = new PriorityQueue<Integer>(10, Collections.reverseOrder());
 	public static int numOfElements = 0;
 	
 	public static void addNumberToStream(Integer num) {
 		maxHeap.add(num);
-		if (numOfElements%2 == 0) {
-			if (minHeap.isEmpty()) {
+		if(numOfElements % 2 == 0) {
+			if(minHeap.isEmpty()) {
 				numOfElements++;
 				return;
-			} else if (maxHeap.peek() > minHeap.peek()) {
+			} else if(maxHeap.peek() > minHeap.peek()) {
 				Integer maxHeapRoot = maxHeap.poll();
 				Integer minHeapRoot = minHeap.poll();
-				maxHeap.add(minHeapRoot);
-				minHeap.add(maxHeapRoot);
-			} 
+				maxHeap.offer(minHeapRoot);
+				minHeap.offer(maxHeapRoot);
+			}
 		} else {
 			minHeap.add(maxHeap.poll());
 		}
 		numOfElements++;
 	}
 	
-	public static Double getMedian() {
-		if (numOfElements%2 != 0)
-			return new Double(maxHeap.peek());
-		else
-			return (maxHeap.peek() + minHeap.peek()) / 2.0; 
+	public static double getMedian() {
+		if(numOfElements % 2 == 0) {
+			return (double)(minHeap.peek() + maxHeap.peek()) / 2.0;
+		} else {
+			return (double)(maxHeap.peek());
+		}
 	}
 	
 	public static void main(String[] args) {

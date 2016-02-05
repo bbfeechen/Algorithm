@@ -3,16 +3,12 @@ package linkedin;
 public class Singleton {
 	public static class MySingleton {
 		private static MySingleton instance = null;
-		 
-		protected MySingleton() {
-		}
-		 
-		// Lazy Initialization (If required then only)
+		private MySingleton() {}
+		
 		public static MySingleton getInstance() {
-			if (instance == null) {
-				// Thread Safe. Might be costly operation in some case
-				synchronized (Singleton.class) {
-					if (instance == null) {
+			if(instance == null) {
+				synchronized(MySingleton.class) {
+					if(instance == null) {
 						instance = new MySingleton();
 					}
 				}

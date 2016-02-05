@@ -1,6 +1,7 @@
 package hard;
 
 public class Q97_Interleaving_String {
+	// http://blog.csdn.net/u011095253/article/details/9248073
     public static boolean isInterleave(String s1, String s2, String s3) {
         if(s3.length() != s1.length() + s2.length()) {
             return false;

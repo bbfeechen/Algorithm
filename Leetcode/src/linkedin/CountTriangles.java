@@ -7,17 +7,17 @@ public class CountTriangles {
     //https://codility.com/demo/results/demoHFCK86-FBV/
     public int solution(int[] A) {
         Arrays.sort(A);
-        int ans = 0, n = A.length;
+        int count = 0, n = A.length;
         for (int i = 0; i < n - 2; i++) {
             int k = 0;  // k is init here
             for (int j = i + 1; j < n - 1; j++) {
                 while (k < n && A[i] + A[j] > A[k]) {
                     k++;
                 }
-                ans += k - j - 1;
+                count += k - j - 1;
             }
         }
-        return ans;
+        return count;
     }
 
     // O(n^3)
