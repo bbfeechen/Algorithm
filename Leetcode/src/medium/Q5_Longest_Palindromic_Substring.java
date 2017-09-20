@@ -19,6 +19,24 @@ public class Q5_Longest_Palindromic_Substring {
         
         return result;
     }
+
+    public static String longestPalindromeDP(String s) {
+        if (s == null || s.length() == 0) {
+            return s;
+        }
+        int N = s.length();
+        boolean[][] dp = new boolean[N][N];
+        String result = null;
+        for (int i = N; i >= 0; i--) {
+            for (int j = i; j < N; j++) {
+                dp[i][j] = s.charAt(i) == s.charAt(j) && (j - i < 3 || dp[i + 1][j - 1]);
+                if (dp[i][j] && (result == null || j - i + 1 > result.length())) {
+                    result = s.substring(i, j + 1);
+                }
+            }
+        }
+        return result;
+    }
     
     private static String helper(String s, int start, int end) {
         while(start >= 0 && end <= s.length() - 1 && s.charAt(start) == s.charAt(end)) {
