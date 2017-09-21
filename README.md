@@ -1,2 +1,2 @@
 # Algorithm
-self exercise
+exercise
