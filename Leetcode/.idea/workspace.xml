@@ -12,11 +12,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/designpattern/prototype/Main.java">
+      <file leaf-file-name="Display.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/Display.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="231">
+              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/StringDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Border.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/Border.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+              <folding>
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SideBorder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/SideBorder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="23" column="64" lean-forward="false" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+              <folding>
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FullBorder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/FullBorder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -40,12 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/designpattern/adapter/delegate/PrintBannerDelegate.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/adapter/extend/PrintBannerExtend.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/adapter/Main.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/template_method/AbstractDisplay.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/template_method/StringDisplay.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/template_method/Main.java" />
         <option value="$PROJECT_DIR$/src/designpattern/template_method/CharDisplay.java" />
         <option value="$PROJECT_DIR$/src/designpattern/strategy/Strategy.java" />
         <option value="$PROJECT_DIR$/src/designpattern/strategy/Winning.java" />
@@ -84,13 +152,19 @@
         <option value="$PROJECT_DIR$/src/designpattern/prototype/Product.java" />
         <option value="$PROJECT_DIR$/src/designpattern/prototype/Manager.java" />
         <option value="$PROJECT_DIR$/src/designpattern/prototype/UnderlinePen.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/prototype/Main.java" />
         <option value="$PROJECT_DIR$/src/designpattern/prototype/MessageBox.java" />
         <option value="$PROJECT_DIR$/src/designpattern/composite/FileTreatmentException.java" />
         <option value="$PROJECT_DIR$/src/designpattern/composite/File.java" />
         <option value="$PROJECT_DIR$/src/designpattern/composite/Entry.java" />
         <option value="$PROJECT_DIR$/src/designpattern/composite/Directory.java" />
         <option value="$PROJECT_DIR$/src/designpattern/composite/Main.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/prototype/Main.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/decorator/Display.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/decorator/StringDisplay.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/decorator/Border.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/decorator/SideBorder.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/decorator/FullBorder.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/decorator/Main.java" />
       </list>
     </option>
   </component>
@@ -143,7 +217,7 @@
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Abstract_Factory" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -228,6 +302,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="designpattern.composite.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Leetcode" />
+      <envs />
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="designpattern.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="designpattern.decorator.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -288,25 +381,6 @@
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Leetcode" />
-      <envs />
-    </configuration>
-    <configuration name="Strategy" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="designpattern.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="designpattern.strategy.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="314 15" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -516,18 +590,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Builder" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Strategy" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Abstract_Factory" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main (3)" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Abstract_Factory" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main (3)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (3)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Abstract_Factory" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main (3)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Abstract_Factory" />
       </list>
     </recent_temporary>
   </component>
@@ -554,25 +628,27 @@
       <workItem from="1508137545500" duration="1000" />
       <workItem from="1508737263491" duration="2761000" />
       <workItem from="1509326317864" duration="6082000" />
-      <workItem from="1509431193534" duration="3000" />
+      <workItem from="1509431193534" duration="2139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30445000" />
+    <option name="totallyTimeSpent" value="32581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1391" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3005115" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Buck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19736843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -595,7 +671,6 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3005115" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -627,48 +702,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/designpattern/strategy/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/strategy/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="35" column="107" lean-forward="false" selection-start-line="35" selection-start-column="107" selection-end-line="35" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/strategy/ProbStrategry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="41" column="56" lean-forward="false" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/strategy/WinningStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/strategy/Strategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/strategy/Hand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designpattern/template_method/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -987,8 +1020,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/designpattern/prototype/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="441">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/StringDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/Border.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/SideBorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="64" lean-forward="false" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/FullBorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>
