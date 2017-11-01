@@ -8,7 +8,7 @@ public class Main {
         b1.show();
         b2.show();
         b3.show();
-        Display b4 = 
+        Display b4 =
                 new SideBorder(
                         new FullBorder(
                                 new SideBorder(
