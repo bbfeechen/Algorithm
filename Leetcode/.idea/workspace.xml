@@ -12,12 +12,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q572_Subtree_of_Another_Tree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q572_Subtree_of_Another_Tree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/Q572_Subtree_of_Another_Tree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="693">
               <caret line="47" column="49" lean-forward="false" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q594_Longest_Harmonious_Subsequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/Q594_Longest_Harmonious_Subsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/designpattern/abstract_factory/listfactory/ListFactory.java" />
         <option value="$PROJECT_DIR$/src/designpattern/abstract_factory/Main.java" />
         <option value="$PROJECT_DIR$/src/designpattern/abstract_factory/tablefactory/TableLink.java" />
         <option value="$PROJECT_DIR$/src/designpattern/abstract_factory/tablefactory/TableTray.java" />
@@ -91,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/designpattern/state/SafeFrame.java" />
         <option value="$PROJECT_DIR$/src/designpattern/state/Main.java" />
         <option value="$PROJECT_DIR$/src/easy/Q572_Subtree_of_Another_Tree.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q594_Longest_Harmonious_Subsequence.java" />
       </list>
     </option>
   </component>
@@ -174,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q572_Subtree_of_Another_Tree">
+  <component name="RunManager" selected="Application.Q594_Longest_Harmonious_Subsequence">
     <configuration name="Builder" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -251,14 +265,14 @@
       <module name="Leetcode" />
       <envs />
     </configuration>
-    <configuration name="Q557_Reverse_Words_in_a_String_III" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Q572_Subtree_of_Another_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="easy.Q557_Reverse_Words_in_a_String_III" />
+      <option name="MAIN_CLASS_NAME" value="easy.Q572_Subtree_of_Another_Tree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -270,14 +284,14 @@
       <module name="Leetcode" />
       <envs />
     </configuration>
-    <configuration name="Q572_Subtree_of_Another_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Q594_Longest_Harmonious_Subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="easy.Q572_Subtree_of_Another_Tree" />
+      <option name="MAIN_CLASS_NAME" value="easy.Q594_Longest_Harmonious_Subsequence" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -489,19 +503,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Builder" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Q557_Reverse_Words_in_a_String_III" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main (2)" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Q572_Subtree_of_Another_Tree" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Q572_Subtree_of_Another_Tree" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Q594_Longest_Harmonious_Subsequence" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Q572_Subtree_of_Another_Tree" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Q557_Reverse_Words_in_a_String_III" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Q594_Longest_Harmonious_Subsequence" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Q572_Subtree_of_Another_Tree" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -536,12 +550,12 @@
       <workItem from="1509600217784" duration="552000" />
       <workItem from="1509691167887" duration="2849000" />
       <workItem from="1509695000346" duration="1825000" />
-      <workItem from="1509840231677" duration="2809000" />
+      <workItem from="1509840231677" duration="3419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45557000" />
+    <option name="totallyTimeSpent" value="46167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1388" height="877" extended-state="0" />
@@ -616,13 +630,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1002,6 +1009,18 @@
         <state relative-caret-position="693">
           <caret line="47" column="49" lean-forward="false" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q594_Longest_Harmonious_Subsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
