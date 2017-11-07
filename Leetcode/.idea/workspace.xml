@@ -42,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Q575_Distribute_Candies.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q575_Distribute_Candies.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/Q575_Distribute_Candies.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -50,6 +50,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q682_Baseball_Game.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/Q682_Baseball_Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/designpattern/abstract_factory/tablefactory/TablePage.java" />
         <option value="$PROJECT_DIR$/src/designpattern/abstract_factory/tablefactory/TableFactory.java" />
         <option value="$PROJECT_DIR$/src/designpattern/singleton/Singleton.java" />
         <option value="$PROJECT_DIR$/src/designpattern/singleton/Main.java" />
@@ -123,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/easy/Q405_Convert_a_Number_to_Hexadecimal.java" />
         <option value="$PROJECT_DIR$/src/easy/Q671_Second_Minimum_Node_In_a_Binary_Tree.java" />
         <option value="$PROJECT_DIR$/src/easy/Q575_Distribute_Candies.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q682_Baseball_Game.java" />
       </list>
     </option>
   </component>
@@ -206,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q575_Distribute_Candies">
+  <component name="RunManager" selected="Application.Q682_Baseball_Game">
     <configuration name="Builder" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -234,25 +244,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="easy.Q405_Convert_a_Number_to_Hexadecimal" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Leetcode" />
-      <envs />
-    </configuration>
-    <configuration name="Q572_Subtree_of_Another_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="easy.Q572_Subtree_of_Another_Tree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -310,6 +301,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="easy.Q671_Second_Minimum_Node_In_a_Binary_Tree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Leetcode" />
+      <envs />
+    </configuration>
+    <configuration name="Q682_Baseball_Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="easy.Q682_Baseball_Game" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -521,19 +531,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Builder" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Q572_Subtree_of_Another_Tree" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Q594_Longest_Harmonious_Subsequence" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Q405_Convert_a_Number_to_Hexadecimal" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Q671_Second_Minimum_Node_In_a_Binary_Tree" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Q575_Distribute_Candies" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Q594_Longest_Harmonious_Subsequence" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Q405_Convert_a_Number_to_Hexadecimal" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Q671_Second_Minimum_Node_In_a_Binary_Tree" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Q575_Distribute_Candies" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Q682_Baseball_Game" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Q575_Distribute_Candies" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Q671_Second_Minimum_Node_In_a_Binary_Tree" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Q405_Convert_a_Number_to_Hexadecimal" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Q594_Longest_Harmonious_Subsequence" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Q572_Subtree_of_Another_Tree" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Q682_Baseball_Game" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Q575_Distribute_Candies" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Q671_Second_Minimum_Node_In_a_Binary_Tree" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Q405_Convert_a_Number_to_Hexadecimal" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Q594_Longest_Harmonious_Subsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -570,12 +580,12 @@
       <workItem from="1509695000346" duration="1825000" />
       <workItem from="1509840231677" duration="4514000" />
       <workItem from="1509958309906" duration="1221000" />
-      <workItem from="1510042969414" duration="95000" />
+      <workItem from="1510042969414" duration="649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48578000" />
+    <option name="totallyTimeSpent" value="49132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1388" height="877" extended-state="0" />
@@ -590,7 +600,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -650,13 +660,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/designpattern/prototype/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designpattern/prototype/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1021,6 +1024,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q682_Baseball_Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
