@@ -1,4 +1,4 @@
-package thinkinjava.enumeration;
+package thinkinjava.enumeration.chain_of_responsibility;
 
 import java.util.Iterator;
 
