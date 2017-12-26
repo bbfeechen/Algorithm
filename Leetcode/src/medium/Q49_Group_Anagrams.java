@@ -7,35 +7,23 @@ import java.util.List;
 import java.util.Map;
 
 public class Q49_Group_Anagrams {
-	public static List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> result = new ArrayList<List<String>>();
-        Arrays.sort(strs);
-        Map<Integer, List<String>> map = new HashMap<Integer, List<String>>();
-        for(String str : strs) {
-            int hash = getHash(str);
-            if(!map.containsKey(hash)) {
-                map.put(hash, new ArrayList<String>());
+    public static List<List<String>> groupAnagrams(String[] strs) {
+        Map<String, List<String>> map = new HashMap<>();
+        for (String str : strs) {
+            char[] chars = str.toCharArray();
+            Arrays.sort(chars);
+            String key = String.valueOf(chars);
+            if (!map.containsKey(key)) {
+                map.put(key, new ArrayList<>());
             }
-            map.get(hash).add(str);
+            map.get(key).add(str);
         }
-        for(List<String> list : map.values()) {
-            result.add(list);
+
+        List<List<String>> result = new ArrayList<>();
+        for (Map.Entry<String, List<String>> entry : map.entrySet()) {
+            result.add(entry.getValue());
         }
         return result;
-    }
-    
-    private static int getHash(String str) {
-        int[] count = new int[26];
-        for(int i = 0; i < str.length(); i++) {
-            count[str.charAt(i) - 'a']++;
-        }
-        int a = 3, b = 5;
-        int hash = 0;
-        for(int i : count) {
-            a = a * b;
-            hash += i * a + b;
-        }
-        return hash;
     }
     
     public static void main(String[] args) {

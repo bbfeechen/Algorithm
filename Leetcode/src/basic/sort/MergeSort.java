@@ -1,4 +1,4 @@
-package basic;
+package basic.sort;
 
 public class MergeSort {
 	public void sort(int[] nums) {

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
 
-public class BST {
+public class BinarySearchTree {
 	private class TreeNode {
 		private int val;
 		private TreeNode left;
@@ -196,47 +196,47 @@ public class BST {
     }
 
 	public static void main(String[] args) {
-		BST bst = new BST();
-		bst.insert(3);
-		bst.insert(2);
-		bst.insert(4);
-		bst.insert(1);
-		bst.insert(5);
-		List<List<Integer>> levelorder = bst.levelOrderTraversal(bst.root);
+		BinarySearchTree binarySearchTree = new BinarySearchTree();
+		binarySearchTree.insert(3);
+		binarySearchTree.insert(2);
+		binarySearchTree.insert(4);
+		binarySearchTree.insert(1);
+		binarySearchTree.insert(5);
+		List<List<Integer>> levelorder = binarySearchTree.levelOrderTraversal(binarySearchTree.root);
 		for(List<Integer> list : levelorder) {
 			for(int i : list) {
 				System.out.print(i + " ");
 			}
 		}
 		System.out.println();
-		List<Integer> preorder = bst.preOrderTraversal(bst.root);
+		List<Integer> preorder = binarySearchTree.preOrderTraversal(binarySearchTree.root);
 		for(int i : preorder) {
 			System.out.print(i + " ");
 		}
 		System.out.println();
-		List<Integer> postorder = bst.postOrderTraversal(bst.root);
+		List<Integer> postorder = binarySearchTree.postOrderTraversal(binarySearchTree.root);
 		for(int i : postorder) {
 			System.out.print(i + " ");
 		}
 		System.out.println();
-		List<Integer> inorder = bst.inOrderTraversal(bst.root);
+		List<Integer> inorder = binarySearchTree.inOrderTraversal(binarySearchTree.root);
 		for(int i : inorder) {
 			System.out.print(i + " ");
 		}
 		System.out.println();
 		
 		List<Integer> result = new LinkedList<>();
-        bst.serialize(bst.root, result);
+        binarySearchTree.serialize(binarySearchTree.root, result);
         System.out.println(result);
-        TreeNode root = bst.deserialize(result, 0);
-        levelorder = bst.levelOrderTraversal(root);
+        TreeNode root = binarySearchTree.deserialize(result, 0);
+        levelorder = binarySearchTree.levelOrderTraversal(root);
 		for(List<Integer> list : levelorder) {
 			for(int i : list) {
 				System.out.print(i + " ");
 			}
 		}
 		System.out.println();
-		preorder = bst.preOrderTraversal(root);
+		preorder = binarySearchTree.preOrderTraversal(root);
 		for(int i : preorder) {
 			System.out.print(i + " ");
 		}
