@@ -27,18 +27,34 @@ public class Q252_Meeting_Rooms {
 		}
 	}
 	
+//	public static boolean canAttendMeetings(Interval[] intervals) {
+//		if(intervals == null || intervals.length == 0) {
+//			return true;
+//		}
+//		Arrays.sort(intervals, new IntervalComparator());
+//		Interval prev = intervals[0];
+//		for(int i = 1; i < intervals.length; i++) {
+//			Interval curr = intervals[i];
+//			if(isOverlapped(prev, curr)) {
+//				return false;
+//			}
+//			prev = curr;
+//		}
+//		return true;
+//	}
+
 	public static boolean canAttendMeetings(Interval[] intervals) {
-		if(intervals == null || intervals.length == 0) {
-			return true;
-		}
-		Arrays.sort(intervals, new IntervalComparator());
-		Interval prev = intervals[0];
-		for(int i = 1; i < intervals.length; i++) {
-			Interval curr = intervals[i];
-			if(isOverlapped(prev, curr)) {
+		Arrays.sort(intervals, new Comparator<Interval>() {
+			@Override
+			public int compare(Interval a, Interval b) {
+				return a.start - b.start;
+			}
+		});
+
+		for (int i = 0; i < intervals.length - 1; i++) {
+			if (intervals[i + 1].start < intervals[i].end) {
 				return false;
 			}
-			prev = curr;
 		}
 		return true;
 	}

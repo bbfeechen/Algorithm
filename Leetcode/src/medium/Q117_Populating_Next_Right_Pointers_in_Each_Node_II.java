@@ -5,28 +5,14 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class Q116_Populating_Next_Right_Pointers_in_Each_Node {
-	public static class TreeLinkNode {
-	     int val;
-	     TreeLinkNode left, right, next;
-	     TreeLinkNode(int x) { val = x; }
-	}
-	
-	public static void connectRecursively(TreeLinkNode root) {
-        if(root == null) {
-            return;
-        }
-        if(root.left != null) {
-            root.left.next = root.right;
-        }
-        if(root.right != null) {
-            root.right.next = root.next != null ? root.next.left : null;
-        }
-        connectRecursively(root.left);
-        connectRecursively(root.right);
+public class Q117_Populating_Next_Right_Pointers_in_Each_Node_II {
+    static class TreeLinkNode {
+        int val;
+        TreeLinkNode left, right, next;
+        TreeLinkNode(int x) { val = x; }
     }
 
-    public static void connectIteratively(TreeLinkNode root) {
+    public static void connect(TreeLinkNode root) {
         if (root == null) {
             return;
         }
@@ -56,9 +42,12 @@ public class Q116_Populating_Next_Right_Pointers_in_Each_Node {
         }
     }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+    public static void main(String[] args) {
+        TreeLinkNode root = new TreeLinkNode(1);
+        root.left = new TreeLinkNode(2);
+        root.right = new TreeLinkNode(3);
+        root.left.left = new TreeLinkNode(4);
+        root.left.right = new TreeLinkNode(5);
+        connect(root);
+    }
 }

@@ -6,7 +6,7 @@ import java.util.Map;
 public class Trie {
 	private class TrieNode {
 		private char c;
-		private Map<Character, TrieNode> children = new HashMap<Character, TrieNode>();
+		private Map<Character, TrieNode> children = new HashMap<>();
 		private boolean isLeaf;
 	    
 	    public TrieNode() {
@@ -28,7 +28,7 @@ public class Trie {
         Map<Character, TrieNode> children = root.children;
         for(int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
-            TrieNode t = null;
+            TrieNode t;
             if(children.containsKey(c)) {
                 t = children.get(c);
             } else {
