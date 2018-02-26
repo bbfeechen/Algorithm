@@ -1,14 +1,19 @@
 package basic;
 
-public class DisjointSet {
+public class WeigtedDisjointSet {
     private int[] id;
+    private int[] sz;
     private int count;
 
-    public DisjointSet(int N) {
+    public WeigtedDisjointSet(int N) {
         count = N;
         id = new int[N];
         for (int i = 0; i < N; i++) {
             id[i] = i;
+        }
+        sz = new int[N];
+        for (int i = 0; i < N; i++) {
+            sz[i] = 1;
         }
     }
 
@@ -21,19 +26,24 @@ public class DisjointSet {
     }
 
     public int find(int p) {
-        return id[p];
+        while (p != id[p]) {
+            p = id[p];
+        }
+        return p;
     }
 
     public void union(int p, int q) {
-        int pID = find(p);
-        int qID = find(q);
-        if (pID == qID) {
+        int i = find(p);
+        int j = find(q);
+        if (i == j) {
             return;
         }
-        for (int i = 0; i < id.length; i++) {
-            if (id[i] == pID) {
-                id[i] = qID;
-            }
+        if (sz[i] < sz[j]) {
+            id[i] = j;
+            sz[i] += sz[j];
+        } else {
+            id[j] = i;
+            sz[j] += sz[i];
         }
         count--;
     }

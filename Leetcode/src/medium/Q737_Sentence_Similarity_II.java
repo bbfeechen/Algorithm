@@ -5,25 +5,40 @@ import java.util.Map;
 
 public class Q737_Sentence_Similarity_II {
     static class DisjointSet {
-        int[] subset;
-        public DisjointSet(int numOfSet) {
-            subset = new int[numOfSet];
-            for (int i = 0; i < numOfSet; i++) {
-                subset[i] = i;
+        private int[] id;
+        private int count;
+
+        public DisjointSet(int N) {
+            id = new int[N];
+            for (int i = 0; i < N; i++) {
+                id[i] = i;
             }
         }
 
-        public int find(int i) {
-            while (subset[i] != i) {
-                i = subset[i];
-            }
-            return subset[i];
+        public int count() {
+            return count;
         }
 
-        public void union(int i, int j) {
-            int p = find(i);
-            int q = find(j);
-            subset[p] = q;
+        public boolean connected(int p, int q) {
+            return find(p) == find(q);
+        }
+
+        public int find(int p) {
+            return id[p];
+        }
+
+        public void union(int p, int q) {
+            int pID = find(p);
+            int qID = find(q);
+            if (pID == qID) {
+                return;
+            }
+            for (int i = 0; i < id.length; i++) {
+                if (id[i] == pID) {
+                    id[i] = qID;
+                }
+            }
+            count--;
         }
     }
 
