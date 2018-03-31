@@ -7,7 +7,10 @@ import java.util.Set;
 
 public class Q127_Word_Ladder {
 	public static int ladderLength(String beginWord, String endWord, Set<String> wordDict) {
-		Queue<String> queue = new LinkedList<String>();
+		if (!wordDict.contains(endWord)) {
+			return 0;
+		}
+		Queue<String> queue = new LinkedList<>();
 		queue.offer(beginWord);
 		wordDict.remove(beginWord);
 		int length = 1;
