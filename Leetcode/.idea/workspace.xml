@@ -54,11 +54,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Q463_Island_Perimeter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q463_Island_Perimeter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/Q463_Island_Perimeter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
               <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q530_Minimum_Absolute_Difference_in_BST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/easy/Q530_Minimum_Absolute_Difference_in_BST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q451_Sort_Characters_By_Frequency.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/Q451_Sort_Characters_By_Frequency.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -117,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/ServiceChargeTransaction.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/TimeCardTransaction.java" />
         <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/ChangeEmployeeTransaction.java" />
         <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/Transaction.java" />
         <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeEmployeeTransaction.java" />
@@ -168,6 +184,8 @@
         <option value="$PROJECT_DIR$/src/hard/Q65_Valid_Number.java" />
         <option value="$PROJECT_DIR$/src/hard/Q730_Count_Different_Palindromic_Subsequences.java" />
         <option value="$PROJECT_DIR$/src/easy/Q463_Island_Perimeter.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q530_Minimum_Absolute_Difference_in_BST.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q451_Sort_Characters_By_Frequency.java" />
       </list>
     </option>
   </component>
@@ -193,7 +211,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,6 +276,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q730_Count_Different_Palindromic_Subsequences">
+  <component name="RunManager" selected="Application.Q451_Sort_Characters_By_Frequency">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -314,6 +332,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Q451_Sort_Characters_By_Frequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Q451_Sort_Characters_By_Frequency" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Q730_Count_Different_Palindromic_Subsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hard.Q730_Count_Different_Palindromic_Subsequences" />
       <module name="Leetcode" />
@@ -332,17 +361,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinkinjava.concurrency.newapi.SemaphoreDemo" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinkinjava.concurrency.newapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,19 +420,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.SemaphoreDemo" />
       <item itemvalue="Application.ActiveObjectDemo" />
       <item itemvalue="Application.Q76_Minimum_Window_Substring" />
       <item itemvalue="Application.Q149_Max_Points_on_a_Line" />
       <item itemvalue="Application.Q730_Count_Different_Palindromic_Subsequences" />
+      <item itemvalue="Application.Q451_Sort_Characters_By_Frequency" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q451_Sort_Characters_By_Frequency" />
         <item itemvalue="Application.Q730_Count_Different_Palindromic_Subsequences" />
         <item itemvalue="Application.Q149_Max_Points_on_a_Line" />
         <item itemvalue="Application.Q76_Minimum_Window_Substring" />
         <item itemvalue="Application.ActiveObjectDemo" />
-        <item itemvalue="Application.SemaphoreDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -446,14 +464,16 @@
       <workItem from="1523750573426" duration="168000" />
       <workItem from="1524378515298" duration="8953000" />
       <workItem from="1524505271201" duration="2000" />
+      <workItem from="1524630491117" duration="716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76676000" />
+    <option name="totallyTimeSpent" value="77392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32943678" />
@@ -464,20 +484,20 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32793522" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32837406" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30512822" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32837406" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.29102564" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47563806" visible="true" weight="0.28851965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47563806" visible="true" weight="0.29305136" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="SciView" order="12" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="12" />
-      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53333336" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="right" id="Android Model" order="7" side_tool="true" />
       <window_info anchor="right" id="Preview" order="10" weight="0.32991362" />
       <window_info id="Build Variants" order="4" sideWeight="0.52436197" side_tool="true" weight="0.23723939" />
@@ -619,20 +639,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3528">
-          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thinkinjava/concurrency/newapi/CyclicBarrierDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/CyclicBarrier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -967,6 +973,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q530_Minimum_Absolute_Difference_in_BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q451_Sort_Characters_By_Frequency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
