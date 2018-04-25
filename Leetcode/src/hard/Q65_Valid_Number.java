@@ -1,50 +1,37 @@
 package hard;
 
 public class Q65_Valid_Number {
-	public static boolean isNumber(String s) {
-        int len = s.length();
-        int i = 0, e = len - 1;
-        while(i <= e && Character.isWhitespace(s.charAt(i))) {
-            i++;
-        }
-        if(i > len - 1) {
+    public static boolean isNumber(String s) {
+        if (s == null || s.isEmpty()) {
             return false;
         }
-        while(e >= i && Character.isWhitespace(s.charAt(e))) {
-            e--;
-        }
-        if(s.charAt(i) == '+' || s.charAt(i) == '-') {
-            i++;
-        }
-        
-        boolean num = false;
-        boolean exp = false;
-        boolean dot = false;
-        while(i <= e) {
-            char c = s.charAt(i);
-            if(Character.isDigit(c)) {
-                num = true;
-            } else if(c == '.') {
-                if(exp || dot) {
+        s = s.trim();
+        boolean numSeen = false;
+        boolean eSeen = false;
+        boolean dotSeen = false;
+        for (int i = 0; i < s.length(); i++) {
+            if ('0' <= s.charAt(i) && s.charAt(i) <= '9') {
+                numSeen = true;
+            } else if (s.charAt(i) == '+' || s.charAt(i) == '-') {
+                if (i != 0 && s.charAt(i - 1) != 'e') {
                     return false;
                 }
-                dot = true;
-            } else if(c == 'e') {
-                if(exp || num == false) {
+            } else if (s.charAt(i) == '.') {
+                if (eSeen || dotSeen) {
                     return false;
                 }
-                exp = true;
-                num = false;
-            } else if(c == '+' || c == '-') {
-                if(s.charAt(i - 1) != 'e') {
+                dotSeen = true;
+            } else if (s.charAt(i) == 'e') {
+                if (eSeen || !numSeen) {
                     return false;
                 }
+                numSeen = false;
+                eSeen = true;
             } else {
                 return false;
             }
-            i++;
         }
-        return num;
+        return numSeen;
     }
 	
 	public static void main(String[] args) {

@@ -3,68 +3,49 @@ import java.util.HashMap;
 
 
 public class Q76_Minimum_Window_Substring {
-    public static String minWindow(String S, String T) {
-        if(S == null || S.length() == 0) {
-            return S;
-        }
-        if(T == null || T.length() == 0) {
+    public static String minWindow(String s, String t) {
+        if(s == null || s.length() < t.length() || s.length() == 0) {
             return "";
         }
-        
-        HashMap<Character, Integer> tCounter = new HashMap<Character, Integer>();
-        for(int i = 0; i < T.length(); i++) {
-            Character c = T.charAt(i);
-            if(tCounter.containsKey(c)) {
-                tCounter.put(c, tCounter.get(c) + 1);
-            } else {
-                tCounter.put(c, 1);
+        HashMap<Character, Integer> map = new HashMap<>();
+        for(char c : t.toCharArray()) {
+            if(map.containsKey(c)) {
+                map.put(c,map.get(c) + 1);
+            }else{
+                map.put(c,1);
             }
         }
-        
-        HashMap<Character, Integer> minWindowCounter = new HashMap<Character, Integer>();
-        String minWindow = null;
-        int tCount = 0, leftBound = 0;
-        for(int i = 0; i < S.length(); i++) {
-            Character c = S.charAt(i);
-            if(!tCounter.containsKey(c)) {
-                continue;
-            }
-            
-            if(minWindowCounter.containsKey(c)) {
-                minWindowCounter.put(c, minWindowCounter.get(c) + 1);
-            } else {
-                minWindowCounter.put(c, 1);
-            }
-            
-            if(minWindowCounter.get(c) <= tCounter.get(c)) {
-                tCount++;
-            }
-            
-            if(tCount == T.length()) {
-                while(leftBound < S.length()) {
-                    Character ch = S.charAt(leftBound);
-                    if(!tCounter.containsKey(ch)) {
-                        leftBound++;
-                        continue;
-                    }
-                    if(minWindowCounter.get(ch) > tCounter.get(ch)) {
-                        minWindowCounter.put(ch, minWindowCounter.get(ch) - 1);
-                        leftBound++;
-                        continue;
-                    }
-                    break;
+        int left = 0;
+        int minLeft = 0;
+        int minLen = s.length() + 1;
+        int count = 0;
+        for(int right = 0; right < s.length(); right++) {
+            if(map.containsKey(s.charAt(right))) {
+                map.put(s.charAt(right), map.get(s.charAt(right)) - 1);
+                if(map.get(s.charAt(right)) >= 0) {
+                    count ++;
                 }
-                if(minWindow == null || i - leftBound + 1 < minWindow.length()) {
-                    minWindow = S.substring(leftBound, i + 1);
+                while(count == t.length()) {
+                    if(right-left+1 < minLen){
+                        minLeft = left;
+                        minLen = right-left+1;
+                    }
+                    if(map.containsKey(s.charAt(left))) {
+                        map.put(s.charAt(left), map.get(s.charAt(left)) + 1);
+                        if(map.get(s.charAt(left)) > 0){
+                            count --;
+                        }
+                    }
+                    left++;
                 }
             }
         }
-        
-        if(minWindow == null) {
+
+        if(minLen > s.length()) {
             return "";
         }
-        
-        return minWindow;
+
+        return s.substring(minLeft, minLeft + minLen);
     }
     
 	public static void main(String[] args) {
