@@ -15,15 +15,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q387_First_Unique_Character_in_a_String.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/easy/Q387_First_Unique_Character_in_a_String.java">
+      <file leaf-file-name="Q266_Palindrome_Permutation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/easy/Q266_Palindrome_Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            <state relative-caret-position="168">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q506_Relative_Ranks.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/easy/Q506_Relative_Ranks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q447_Number_of_Boomerangs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/Q447_Number_of_Boomerangs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -52,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/Transaction.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeEmployeeTransaction.java" />
         <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeAffiliationTransaction.java" />
         <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeClassificationTransaction.java" />
         <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeNameTransaction.java" />
@@ -103,6 +118,8 @@
         <option value="$PROJECT_DIR$/src/easy/Q530_Minimum_Absolute_Difference_in_BST.java" />
         <option value="$PROJECT_DIR$/src/easy/Q451_Sort_Characters_By_Frequency.java" />
         <option value="$PROJECT_DIR$/src/easy/Q387_First_Unique_Character_in_a_String.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q506_Relative_Ranks.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q447_Number_of_Boomerangs.java" />
       </list>
     </option>
   </component>
@@ -126,8 +143,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,7 +211,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,23 +240,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q506_Relative_Ranks">
+  <component name="RunManager" selected="Application.Q447_Number_of_Boomerangs">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Q149_Max_Points_on_a_Line" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.Q149_Max_Points_on_a_Line" />
+    <configuration name="Q387_First_Unique_Character_in_a_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Q387_First_Unique_Character_in_a_String" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hard.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Q387_First_Unique_Character_in_a_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Q387_First_Unique_Character_in_a_String" />
+    <configuration name="Q447_Number_of_Boomerangs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Q447_Number_of_Boomerangs" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -337,19 +354,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Q149_Max_Points_on_a_Line" />
       <item itemvalue="Application.Q730_Count_Different_Palindromic_Subsequences" />
       <item itemvalue="Application.Q451_Sort_Characters_By_Frequency" />
       <item itemvalue="Application.Q387_First_Unique_Character_in_a_String" />
       <item itemvalue="Application.Q506_Relative_Ranks" />
+      <item itemvalue="Application.Q447_Number_of_Boomerangs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q447_Number_of_Boomerangs" />
         <item itemvalue="Application.Q506_Relative_Ranks" />
         <item itemvalue="Application.Q387_First_Unique_Character_in_a_String" />
         <item itemvalue="Application.Q451_Sort_Characters_By_Frequency" />
         <item itemvalue="Application.Q730_Count_Different_Palindromic_Subsequences" />
-        <item itemvalue="Application.Q149_Max_Points_on_a_Line" />
       </list>
     </recent_temporary>
   </component>
@@ -382,14 +399,15 @@
       <workItem from="1524378515298" duration="8953000" />
       <workItem from="1524505271201" duration="2000" />
       <workItem from="1524630491117" duration="1602000" />
+      <workItem from="1524722822610" duration="689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78278000" />
+    <option name="totallyTimeSpent" value="78967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1375" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -402,20 +420,20 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32793522" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30512822" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32837406" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25128207" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.29102564" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47563806" visible="true" weight="0.25302115" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47563806" visible="true" weight="0.25506377" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="SciView" order="12" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="12" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.53333336" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53333336" />
       <window_info anchor="right" id="Android Model" order="7" side_tool="true" />
       <window_info anchor="right" id="Preview" order="10" weight="0.32991362" />
       <window_info id="Build Variants" order="4" sideWeight="0.52436197" side_tool="true" weight="0.23723939" />
@@ -556,27 +574,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/thinkinjava/concurrency/WaxOMatic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thinkinjava/concurrency/newapi/DelayQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thinkinjava/concurrency/newapi/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -828,11 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,9 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="33" selection-start-line="33" selection-start-column="2" selection-end-line="40" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,8 +900,32 @@
           <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
           <folding>
             <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q266_Palindrome_Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q506_Relative_Ranks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q447_Number_of_Boomerangs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
