@@ -15,25 +15,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q409_Longest_Palindrome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/Q409_Longest_Palindrome.java">
+      <file leaf-file-name="Q401_Binary_Watch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/easy/Q401_Binary_Watch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+            <state relative-caret-position="481">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Q543_Diameter_of_Binary_Tree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/easy/Q543_Diameter_of_Binary_Tree.java">
+      <file leaf-file-name="Q551_Student_Attendance_Record_I.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/easy/Q551_Student_Attendance_Record_I.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="294">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding>
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q541_Reverse_String_II.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/Q541_Reverse_String_II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -62,10 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeClassificationTransaction.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeNameTransaction.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/DeleteEmployeeTransaction.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payment/PaymentSchedule.java" />
         <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/NoAffiliation.java" />
         <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeMemberTransaction.java" />
         <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payment/HoldMethod.java" />
@@ -113,6 +120,10 @@
         <option value="$PROJECT_DIR$/src/easy/Q506_Relative_Ranks.java" />
         <option value="$PROJECT_DIR$/src/easy/Q447_Number_of_Boomerangs.java" />
         <option value="$PROJECT_DIR$/src/easy/Q409_Longest_Palindrome.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q543_Diameter_of_Binary_Tree.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q401_Binary_Watch.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q551_Student_Attendance_Record_I.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q541_Reverse_String_II.java" />
       </list>
     </option>
   </component>
@@ -156,12 +167,6 @@
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="easy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -233,12 +238,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q409_Longest_Palindrome">
+  <component name="RunManager" selected="Application.Q541_Reverse_String_II">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Q387_First_Unique_Character_in_a_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Q387_First_Unique_Character_in_a_String" />
+    <configuration name="Q401_Binary_Watch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Q401_Binary_Watch" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -270,8 +275,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Q451_Sort_Characters_By_Frequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Q451_Sort_Characters_By_Frequency" />
+    <configuration name="Q541_Reverse_String_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Q541_Reverse_String_II" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -281,8 +286,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Q506_Relative_Ranks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Q506_Relative_Ranks" />
+    <configuration name="Q551_Student_Attendance_Record_I" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Q551_Student_Attendance_Record_I" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -347,19 +352,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Q451_Sort_Characters_By_Frequency" />
-      <item itemvalue="Application.Q387_First_Unique_Character_in_a_String" />
-      <item itemvalue="Application.Q506_Relative_Ranks" />
       <item itemvalue="Application.Q447_Number_of_Boomerangs" />
       <item itemvalue="Application.Q409_Longest_Palindrome" />
+      <item itemvalue="Application.Q401_Binary_Watch" />
+      <item itemvalue="Application.Q551_Student_Attendance_Record_I" />
+      <item itemvalue="Application.Q541_Reverse_String_II" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q541_Reverse_String_II" />
+        <item itemvalue="Application.Q551_Student_Attendance_Record_I" />
+        <item itemvalue="Application.Q401_Binary_Watch" />
         <item itemvalue="Application.Q409_Longest_Palindrome" />
         <item itemvalue="Application.Q447_Number_of_Boomerangs" />
-        <item itemvalue="Application.Q506_Relative_Ranks" />
-        <item itemvalue="Application.Q387_First_Unique_Character_in_a_String" />
-        <item itemvalue="Application.Q451_Sort_Characters_By_Frequency" />
       </list>
     </recent_temporary>
   </component>
@@ -392,12 +397,12 @@
       <workItem from="1524378515298" duration="8953000" />
       <workItem from="1524505271201" duration="2000" />
       <workItem from="1524630491117" duration="1602000" />
-      <workItem from="1524722822610" duration="1772000" />
+      <workItem from="1524722822610" duration="3671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80050000" />
+    <option name="totallyTimeSpent" value="81949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1375" height="877" extended-state="6" />
@@ -414,7 +419,7 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32837406" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25128207" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5102564" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.29102564" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Designer" order="5" />
@@ -567,34 +572,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/thinkinjava/concurrency/newapi/Fat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thinkinjava/concurrency/newapi/Pool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thinkinjava/concurrency/newapi/ActiveObjectDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/AddEmployeeTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeAffiliationTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -911,6 +888,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q572_Subtree_of_Another_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q543_Diameter_of_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/Q409_Longest_Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -923,10 +918,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q543_Diameter_of_Binary_Tree.java">
+    <entry file="file://$PROJECT_DIR$/src/easy/Q401_Binary_Watch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="481">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q551_Student_Attendance_Record_I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q541_Reverse_String_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
