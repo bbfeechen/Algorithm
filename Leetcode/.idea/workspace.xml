@@ -15,29 +15,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q266_Palindrome_Permutation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/Q266_Palindrome_Permutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Q506_Relative_Ranks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/Q506_Relative_Ranks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Q447_Number_of_Boomerangs.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/easy/Q447_Number_of_Boomerangs.java">
+      <file leaf-file-name="Q409_Longest_Palindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/Q409_Longest_Palindrome.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
@@ -69,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeAffiliationTransaction.java" />
         <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeClassificationTransaction.java" />
         <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeNameTransaction.java" />
         <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/DeleteEmployeeTransaction.java" />
@@ -120,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/easy/Q387_First_Unique_Character_in_a_String.java" />
         <option value="$PROJECT_DIR$/src/easy/Q506_Relative_Ranks.java" />
         <option value="$PROJECT_DIR$/src/easy/Q447_Number_of_Boomerangs.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q409_Longest_Palindrome.java" />
       </list>
     </option>
   </component>
@@ -240,12 +219,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q447_Number_of_Boomerangs">
+  <component name="RunManager" selected="Application.Q409_Longest_Palindrome">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="Q387_First_Unique_Character_in_a_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.Q387_First_Unique_Character_in_a_String" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Q409_Longest_Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Q409_Longest_Palindrome" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -284,17 +274,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Q730_Count_Different_Palindromic_Subsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.Q730_Count_Different_Palindromic_Subsequences" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,19 +333,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Q730_Count_Different_Palindromic_Subsequences" />
       <item itemvalue="Application.Q451_Sort_Characters_By_Frequency" />
       <item itemvalue="Application.Q387_First_Unique_Character_in_a_String" />
       <item itemvalue="Application.Q506_Relative_Ranks" />
       <item itemvalue="Application.Q447_Number_of_Boomerangs" />
+      <item itemvalue="Application.Q409_Longest_Palindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q409_Longest_Palindrome" />
         <item itemvalue="Application.Q447_Number_of_Boomerangs" />
         <item itemvalue="Application.Q506_Relative_Ranks" />
         <item itemvalue="Application.Q387_First_Unique_Character_in_a_String" />
         <item itemvalue="Application.Q451_Sort_Characters_By_Frequency" />
-        <item itemvalue="Application.Q730_Count_Different_Palindromic_Subsequences" />
       </list>
     </recent_temporary>
   </component>
@@ -399,12 +378,12 @@
       <workItem from="1524378515298" duration="8953000" />
       <workItem from="1524505271201" duration="2000" />
       <workItem from="1524630491117" duration="1602000" />
-      <workItem from="1524722822610" duration="689000" />
+      <workItem from="1524722822610" duration="1363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78967000" />
+    <option name="totallyTimeSpent" value="79641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1375" height="877" extended-state="6" />
@@ -574,13 +553,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="278" column="11" selection-start-line="278" selection-start-column="11" selection-end-line="278" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thinkinjava/concurrency/newapi/SemaphoreDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -923,6 +895,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/Q447_Number_of_Boomerangs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q409_Longest_Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
