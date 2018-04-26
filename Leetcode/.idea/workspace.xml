@@ -15,11 +15,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q409_Longest_Palindrome.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q409_Longest_Palindrome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/Q409_Longest_Palindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="349">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q543_Diameter_of_Binary_Tree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/Q543_Diameter_of_Binary_Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -378,12 +392,12 @@
       <workItem from="1524378515298" duration="8953000" />
       <workItem from="1524505271201" duration="2000" />
       <workItem from="1524630491117" duration="1602000" />
-      <workItem from="1524722822610" duration="1363000" />
+      <workItem from="1524722822610" duration="1772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79641000" />
+    <option name="totallyTimeSpent" value="80050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1375" height="877" extended-state="6" />
@@ -553,13 +567,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/thinkinjava/concurrency/newapi/SemaphoreDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="60" column="65" lean-forward="true" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thinkinjava/concurrency/newapi/Fat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -906,8 +913,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/Q409_Longest_Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="349">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/Q543_Diameter_of_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>

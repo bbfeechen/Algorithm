@@ -1,7 +1,7 @@
 package easy;
 
 public class Q543_Diameter_of_Binary_Tree {
-    static class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
@@ -9,26 +9,22 @@ public class Q543_Diameter_of_Binary_Tree {
             this.val = val;
         }
     }
-    static class MaxDiameter {
-        int val;
-        public MaxDiameter(int val) {
-            this.val = val;
-        }
-    }
+
+    private static int maxDepth = 0;
+
     public static int diameterOfBinaryTree(TreeNode root) {
-        MaxDiameter maxDiameter = new MaxDiameter(0);
-        dfs(root, maxDiameter);
-        return maxDiameter.val;
+        getDepth(root);
+        return maxDepth;
     }
 
-    private static int dfs(TreeNode root, MaxDiameter maxDiameter) {
+    private static int getDepth(TreeNode root) {
         if (root == null) {
             return 0;
         }
-        int leftHeight = dfs(root.left, maxDiameter);
-        int rightHeight = dfs(root.right, maxDiameter);
-        maxDiameter.val = Math.max(leftHeight + rightHeight, maxDiameter.val);
-        return Math.max(leftHeight, rightHeight) + 1;
+        int left = getDepth(root.left);
+        int right = getDepth(root.right);
+        maxDepth = Math.max(maxDepth, left + right);
+        return Math.max(left, right) + 1;
     }
 
     public static void main(String[] args) {
