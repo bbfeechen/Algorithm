@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="42418c23-01b0-4460-a936-85fb8488a1ec" name="Default" comment="" />
+    <list default="true" id="b1f31eed-5be8-4723-bb06-d2897dbdaeaf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,36 +13,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q401_Binary_Watch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/Q401_Binary_Watch.java">
+      <file leaf-file-name="Q269_Alien_Dictionary.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hard/Q269_Alien_Dictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+            <state relative-caret-position="237">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2310#2311#0" expanded="true" />
+                <element signature="e#2392#2393#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Q551_Student_Attendance_Record_I.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/Q551_Student_Attendance_Record_I.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-              <folding>
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Q541_Reverse_String_II.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/easy/Q541_Reverse_String_II.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -54,76 +32,28 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>HEAD</find>
-      <find>lowest</find>
-      <find>=</find>
-      <find>affiliation</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/android-chat" value="2981797666000" />
+        <entry key="$USER_HOME$/android-model" value="19122168074000" />
+        <entry key="$USER_HOME$/android-presidio" value="7454168376000" />
+        <entry key="$USER_HOME$/android-presidio-2017" value="4452293634000" />
+        <entry key="$USER_HOME$/android-ui" value="2971303742000" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/NoAffiliation.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeMemberTransaction.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payment/HoldMethod.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/AddEmployeeTransaction.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeHourlyTransaction.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/TimeCardTransaction.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/ServiceCharge.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeUnaffiliatedTransaction.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/PayrollDatabase.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/AddSalariedEmployee.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payment/SalariedClassification.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/AddSalariedEmployee.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/DateUtil.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/UnionAffiliation.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payment/HourlyClassification.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payment/WeeklySchedule.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/Employee.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payment/MonthlySchedule.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/affiliations/ServiceCharge.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/methods/PaymentMethod.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_domain/PaymentSchedule.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_domain/PaymentMethod.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_domain/PaymentClassification.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_domain/Affiliation.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_domain/Transaction.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_application/PayRollApplication.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_application/TransactionSource.java" />
-        <option value="$PROJECT_DIR$/src/easy/Q339_Nested_List_Weight_Sum.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_domain/Employee.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/PaydayTransaction.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/affiliations/UnionAffiliation.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/classifications/HourlyClassification.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/schedules/MonthlySchedule.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/schedules/WeeklySchedule.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_database/PayrollDatabase.java" />
-        <option value="$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ServiceChargeTransaction.java" />
-        <option value="$PROJECT_DIR$/src/hard/Q76_Minimum_Window_Substring.java" />
-        <option value="$PROJECT_DIR$/src/hard/Q149_Max_Points_on_a_Line.java" />
-        <option value="$PROJECT_DIR$/src/hard/Q65_Valid_Number.java" />
-        <option value="$PROJECT_DIR$/src/hard/Q730_Count_Different_Palindromic_Subsequences.java" />
-        <option value="$PROJECT_DIR$/src/easy/Q463_Island_Perimeter.java" />
-        <option value="$PROJECT_DIR$/src/easy/Q530_Minimum_Absolute_Difference_in_BST.java" />
-        <option value="$PROJECT_DIR$/src/easy/Q451_Sort_Characters_By_Frequency.java" />
-        <option value="$PROJECT_DIR$/src/easy/Q387_First_Unique_Character_in_a_String.java" />
-        <option value="$PROJECT_DIR$/src/easy/Q506_Relative_Ranks.java" />
-        <option value="$PROJECT_DIR$/src/easy/Q447_Number_of_Boomerangs.java" />
-        <option value="$PROJECT_DIR$/src/easy/Q409_Longest_Palindrome.java" />
-        <option value="$PROJECT_DIR$/src/easy/Q543_Diameter_of_Binary_Tree.java" />
-        <option value="$PROJECT_DIR$/src/easy/Q401_Binary_Watch.java" />
-        <option value="$PROJECT_DIR$/src/easy/Q551_Student_Attendance_Record_I.java" />
-        <option value="$PROJECT_DIR$/src/easy/Q541_Reverse_String_II.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q394_Decode_String.java" />
+        <option value="$PROJECT_DIR$/src/hard/Q642_Design_Search_Autocomplete_System.java" />
+        <option value="$PROJECT_DIR$/src/hard/Q218_The_Skyline_Problem.java" />
+        <option value="$PROJECT_DIR$/src/hard/Q269_Alien_Dictionary.java" />
       </list>
     </option>
   </component>
@@ -136,20 +66,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1366" />
+    <option name="width" value="1376" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,65 +93,26 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="workspace&#9;FILE&#9;file:///Users/kailiangchen/Algorithm/Leetcode/.idea/workspace.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="basic" />
-    </key>
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/v0.10.32/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -238,61 +126,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q541_Reverse_String_II">
+  <component name="RunManager" selected="Application.Q269_Alien_Dictionary">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Q401_Binary_Watch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Q401_Binary_Watch" />
+    <configuration name="Q269_Alien_Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hard.Q269_Alien_Dictionary" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Q409_Longest_Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Q409_Longest_Palindrome" />
+    <configuration name="Q394_Decode_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Q394_Decode_String" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Q447_Number_of_Boomerangs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Q447_Number_of_Boomerangs" />
+    <configuration name="Q642_Design_Search_Autocomplete_System" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hard.Q642_Design_Search_Autocomplete_System" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Q541_Reverse_String_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Q541_Reverse_String_II" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Q551_Student_Attendance_Record_I" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Q551_Student_Attendance_Record_I" />
-      <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,7 +175,7 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -327,7 +193,7 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -338,33 +204,16 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <list>
-      <item itemvalue="Application.Q447_Number_of_Boomerangs" />
-      <item itemvalue="Application.Q409_Longest_Palindrome" />
-      <item itemvalue="Application.Q401_Binary_Watch" />
-      <item itemvalue="Application.Q551_Student_Attendance_Record_I" />
-      <item itemvalue="Application.Q541_Reverse_String_II" />
+      <item itemvalue="Application.Q394_Decode_String" />
+      <item itemvalue="Application.Q642_Design_Search_Autocomplete_System" />
+      <item itemvalue="Application.Q269_Alien_Dictionary" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q541_Reverse_String_II" />
-        <item itemvalue="Application.Q551_Student_Attendance_Record_I" />
-        <item itemvalue="Application.Q401_Binary_Watch" />
-        <item itemvalue="Application.Q409_Longest_Palindrome" />
-        <item itemvalue="Application.Q447_Number_of_Boomerangs" />
+        <item itemvalue="Application.Q269_Alien_Dictionary" />
+        <item itemvalue="Application.Q394_Decode_String" />
+        <item itemvalue="Application.Q642_Design_Search_Autocomplete_System" />
       </list>
     </recent_temporary>
   </component>
@@ -373,80 +222,61 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="42418c23-01b0-4460-a936-85fb8488a1ec" name="Default" comment="" />
-      <created>1519505242508</created>
+      <changelist id="b1f31eed-5be8-4723-bb06-d2897dbdaeaf" name="Default" comment="" />
+      <created>1530696754039</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1519505242508</updated>
-      <workItem from="1519505243787" duration="10013000" />
-      <workItem from="1519625818207" duration="10476000" />
-      <workItem from="1519980372263" duration="943000" />
-      <workItem from="1519983036395" duration="783000" />
-      <workItem from="1520206361828" duration="1024000" />
-      <workItem from="1520274066410" duration="4000" />
-      <workItem from="1522482152723" duration="29548000" />
-      <workItem from="1523071614677" duration="5831000" />
-      <workItem from="1523179844855" duration="1134000" />
-      <workItem from="1523222268267" duration="3016000" />
-      <workItem from="1523230833564" duration="1123000" />
-      <workItem from="1523232097838" duration="982000" />
-      <workItem from="1523236342795" duration="2397000" />
-      <workItem from="1523507953405" duration="114000" />
-      <workItem from="1523508710138" duration="165000" />
-      <workItem from="1523750573426" duration="168000" />
-      <workItem from="1524378515298" duration="8953000" />
-      <workItem from="1524505271201" duration="2000" />
-      <workItem from="1524630491117" duration="1602000" />
-      <workItem from="1524722822610" duration="3671000" />
+      <updated>1530696754039</updated>
+      <workItem from="1530696765225" duration="886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81949000" />
+    <option name="totallyTimeSpent" value="886000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1375" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1376" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32943678" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3" />
-      <window_info anchor="bottom" id="Buck" order="7" weight="0.19736843" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.5678705" />
       <window_info id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="11" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32793522" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24408469" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32837406" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5102564" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.29102564" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.29251012" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47563806" visible="true" weight="0.25506377" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="SciView" order="12" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47563806" visible="true" weight="0.2122093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36737236" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.53333336" />
-      <window_info anchor="right" id="Android Model" order="7" side_tool="true" />
-      <window_info anchor="right" id="Preview" order="10" weight="0.32991362" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Build Variants" order="4" sideWeight="0.52436197" side_tool="true" weight="0.23723939" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Preview" order="10" weight="0.32991362" />
+      <window_info anchor="bottom" id="Buck" order="7" weight="0.19736843" />
       <window_info id="Captures" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="CheckStyle" order="11" weight="0.3298292" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Android Model" order="7" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Android Monitor" order="9" visible="true" weight="0.33704454" />
       <window_info anchor="right" id="Gradle" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.36700767" />
-      <window_info anchor="right" id="Fabric" order="9" />
-      <window_info anchor="bottom" id="Gradle Console" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3674089" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Gradle Console" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="CheckStyle" order="11" weight="0.3298292" />
+      <window_info anchor="right" id="Fabric" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,490 +289,133 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medium/Q737_Sentence_Similarity_II.java</url>
-          <line>62</line>
+          <url>file://$PROJECT_DIR$/src/medium/Q394_Decode_String.java</url>
+          <line>39</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medium/Q117_Populating_Next_Right_Pointers_in_Each_Node_II.java</url>
+          <url>file://$PROJECT_DIR$/src/hard/Q269_Alien_Dictionary.java</url>
           <line>51</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medium/Q117_Populating_Next_Right_Pointers_in_Each_Node_II.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medium/Q261_Graph_Valid_Tree.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medium/Q78_Subsets.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medium/Q90_Subsets_II.java</url>
-          <line>20</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medium/Q127_Word_Ladder.java</url>
-          <line>28</line>
+          <url>file://$PROJECT_DIR$/src/hard/Q269_Alien_Dictionary.java</url>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medium/Q127_Word_Ladder.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Q236_Lowest_Common_Ancestor_of_a_Binary_Tree.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Q236_Lowest_Common_Ancestor_of_a_Binary_Tree.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Q236_Lowest_Common_Ancestor_of_a_Binary_Tree.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Q236_Lowest_Common_Ancestor_of_a_Binary_Tree.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Q581_Shortest_Unsorted_Continuous_Subarray.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hard/Q76_Minimum_Window_Substring.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hard/Q76_Minimum_Window_Substring.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hard/Q149_Max_Points_on_a_Line.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>map.get(words1[1])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>map.get(words1[0])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeAffiliationTransaction.java">
+    <entry file="file://$PROJECT_DIR$/src/hard/Q642_Design_Search_Autocomplete_System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="1751">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeClassificationTransaction.java">
+    <entry file="file://$PROJECT_DIR$/src/hard/Q218_The_Skyline_Problem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeEmployeeTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeNameTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/DeleteEmployeeTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/TimeCardTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/TimeCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/AddSalariedEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeUnaffiliatedTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeMemberTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ChangeHourlyTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/affiliations/NoAffiliation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/affiliations/ServiceCharge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/methods/HoldMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/classifications/SalariedClassification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_application/TransactionSource.java" />
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_domain/PaymentSchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_domain/Affiliation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_application/PayRollApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_domain/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_domain/PaymentMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_domain/PaymentClassification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q339_Nested_List_Weight_Sum.java" />
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/schedules/WeeklySchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/PaydayTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_domain/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="68" selection-start-line="68" selection-start-column="2" selection-end-line="77" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/payroll_database/PayrollDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/transaction/ServiceChargeTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/Q76_Minimum_Window_Substring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q451_Sort_Characters_By_Frequency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q530_Minimum_Absolute_Difference_in_BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q463_Island_Perimeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/Q730_Count_Different_Palindromic_Subsequences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/Q65_Valid_Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/Q68_Text_Justification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/Q149_Max_Points_on_a_Line.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="476">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/schedules/MonthlySchedule.java">
+    <entry file="file://$PROJECT_DIR$/src/hard/Q642_Design_Search_Autocomplete_System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="2023">
+          <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/affiliations/UnionAffiliation.java">
+    <entry file="file://$PROJECT_DIR$/src/medium/Q1_Two_Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="33" selection-start-line="33" selection-start-column="2" selection-end-line="40" selection-end-column="7" />
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agile_principles_practice_pattern/classifications/HourlyClassification.java">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/command/MacroCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="27" selection-start-line="27" selection-start-column="2" selection-end-line="41" selection-end-column="7" />
+        <state relative-caret-position="30">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q387_First_Unique_Character_in_a_String.java">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/command/MacroCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q266_Palindrome_Permutation.java">
+    <entry file="file://$PROJECT_DIR$/src/medium/Q1_Two_Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q506_Relative_Ranks.java">
+    <entry file="file://$PROJECT_DIR$/src/Leetcode.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q447_Number_of_Boomerangs.java">
+    <entry file="file://$PROJECT_DIR$/Leetcode.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q572_Subtree_of_Another_Tree.java">
+    <entry file="file://$PROJECT_DIR$/src/rxjava/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q543_Diameter_of_Binary_Tree.java">
+    <entry file="file://$PROJECT_DIR$/src/medium/Q394_Decode_String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="39" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q409_Longest_Palindrome.java">
+    <entry file="file://$PROJECT_DIR$/src/hard/Q218_The_Skyline_Problem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q401_Binary_Watch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        <state relative-caret-position="263">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q551_Student_Attendance_Record_I.java">
+    <entry file="file://$PROJECT_DIR$/src/hard/Q642_Design_Search_Autocomplete_System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="246">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/Q541_Reverse_String_II.java">
+    <entry file="file://$PROJECT_DIR$/src/hard/Q269_Alien_Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="237">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2310#2311#0" expanded="true" />
+            <element signature="e#2392#2393#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,8 +481,21 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>rxjava-1.3.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
