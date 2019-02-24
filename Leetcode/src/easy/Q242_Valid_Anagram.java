@@ -1,31 +1,39 @@
 package easy;
 
+import java.util.Arrays;
+
 public class Q242_Valid_Anagram {
 	public static boolean isAnagram(String s, String t) {
-        if(s == null) {
-            return t == null;
-        }
-        if(s.length() == 0) {
-            return t.length() == 0;
-        }
-        if(s.length() != t.length()) {
-            return false;
-        }
-        
-        // 1
-        // char[] arrs = s.toCharArray();
-        // char[] arrt = t.toCharArray();
-        // Arrays.sort(arrs);
-        // Arrays.sort(arrt);
-        // for(int i = 0; i < arrs.length; i++) {
-        //     if(arrs[i] != arrt[i]) {
-        //         return false;
-        //     }
-        // }
-        // return true;
-        
-        // 2
-        return getHash(s) == getHash(t); 
+//        if(s == null) {
+//            return t == null;
+//        }
+//        if(s.length() == 0) {
+//            return t.length() == 0;
+//        }
+//        if(s.length() != t.length()) {
+//            return false;
+//        }
+//
+//        // 1
+//        // char[] arrs = s.toCharArray();
+//        // char[] arrt = t.toCharArray();
+//        // Arrays.sort(arrs);
+//        // Arrays.sort(arrt);
+//        // for(int i = 0; i < arrs.length; i++) {
+//        //     if(arrs[i] != arrt[i]) {
+//        //         return false;
+//        //     }
+//        // }
+//        // return true;
+//
+//        // 2
+//        return getHash(s) == getHash(t);
+
+        char[] sChars = s.toCharArray();
+        char[] tChars = t.toCharArray();
+        Arrays.sort(sChars);
+        Arrays.sort(tChars);
+        return Arrays.equals(sChars, tChars);
     }
     
     private static int getHash(String s) {

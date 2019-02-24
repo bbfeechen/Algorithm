@@ -12,9 +12,7 @@ public class QuickSort {
 		Random random = new Random(); 
 		for(int i = 0; i < nums.length; i++) {
 			int r = i + random.nextInt(nums.length - i);
-			int temp = nums[i];
-			nums[i] = nums[r];
-			nums[r] = temp;
+			swap(nums, i, r);
 		}
 	}
 	

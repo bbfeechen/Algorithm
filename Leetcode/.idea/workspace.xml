@@ -11,18 +11,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Leetcode" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q269_Alien_Dictionary.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hard/Q269_Alien_Dictionary.java">
+    <leaf>
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/basic/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2310#2311#0" expanded="true" />
-                <element signature="e#2392#2393#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="663">
+              <caret line="44" column="29" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -32,9 +30,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System.out</find>
+      <find>union</find>
+      <find>quickSelect</find>
+    </findStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -50,10 +56,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/medium/Q394_Decode_String.java" />
         <option value="$PROJECT_DIR$/src/hard/Q642_Design_Search_Autocomplete_System.java" />
-        <option value="$PROJECT_DIR$/src/hard/Q218_The_Skyline_Problem.java" />
         <option value="$PROJECT_DIR$/src/hard/Q269_Alien_Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/hard/Q745_Prefix_and_Suffix_Search.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q39_Combination_Sum.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q40_Combination_Sum_II.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q377_Combination_Sum_IV.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q533_Lonely_Pixel_II.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q359_3Sum_Smaller.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q802_Find_Eventual_Safe_States.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q616_Add_Bold_Tag_in_String.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q792_Number_of_Matching_Subsequences.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q658_Find_K_Closest_Elements.java" />
+        <option value="$PROJECT_DIR$/src/hard/Q84_Largest_Rectangle_in_Histogram.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q48_Rotate_Image.java" />
+        <option value="$PROJECT_DIR$/src/hard/Q224_Basic_Calculator.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q165_Compare_Version_Numbers.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q255_Verify_Preorder_Sequence_in_Binary_Search_Tree.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q307_Range_Sum_Query_Mutable.java" />
+        <option value="$PROJECT_DIR$/src/basic/BinaryIndexTree.java" />
+        <option value="$PROJECT_DIR$/src/basic/BinaryIndexTree2D.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q640_Solve_the_Equation.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q886_Possible_Bipartition.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q443_String_Compression.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q242_Valid_Anagram.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q50_Pow.java" />
+        <option value="$PROJECT_DIR$/src/hard/Q632_Smallest_Range.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q648_Replace_Words.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q676_Implement_Magic_Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/basic/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/hard/Q41_First_Missing_Positive.java" />
+        <option value="$PROJECT_DIR$/src/hard/Q301_Remove_Invalid_Parentheses.java" />
+        <option value="$PROJECT_DIR$/src/hard/Q218_The_Skyline_Problem.java" />
+        <option value="$PROJECT_DIR$/src/hard/Q431_Encode_N_ary_Tree_to_Binary_Tree.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q728_Self_Dividing_Numbers.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q609_Find_Duplicate_File_in_System.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q716_Max_Stack.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q341_Flatten_Nested_List_Iterator.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q698_Partition_to_K_Equal_Sum_Subsets.java" />
+        <option value="$PROJECT_DIR$/src/linkedin/Max_Points_on_a_Line.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q22_Generate_Parentheses.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q831_Masking_Personal_Information.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q8_String_to_Integer.java" />
+        <option value="$PROJECT_DIR$/src/easy/Q257_Binary_Tree_Paths.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/observer/pub_sub/Observer.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/observer/pub_sub/Subject.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/observer/pub_sub/MyTopic.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/observer/pub_sub/MyTopicSubscriber.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/observer/pub_sub/Main.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q227_Basic_Calculator_II.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q84_Largest_Rectangle_in_Histogram.java" />
+        <option value="$PROJECT_DIR$/src/medium/Q692_Top_K_Frequent_Words.java" />
       </list>
     </option>
   </component>
@@ -66,9 +119,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1376" />
+    <option name="width" value="1397" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -76,6 +129,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -93,17 +148,59 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hard" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="TreeNode&#9;PSI&#9;JAVA://basic.BinarySearchTree.TreeNode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -112,7 +209,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,23 +223,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q269_Alien_Dictionary">
+  <component name="RunManager" selected="Application.Q692_Top_K_Frequent_Words">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Q269_Alien_Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.Q269_Alien_Dictionary" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.observer.pub_sub.Main" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hard.*" />
+          <option name="PATTERN" value="designpattern.observer.pub_sub.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Q394_Decode_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.Q394_Decode_String" />
+    <configuration name="Q227_Basic_Calculator_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Q227_Basic_Calculator_II" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -152,13 +249,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Q642_Design_Search_Autocomplete_System" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.Q642_Design_Search_Autocomplete_System" />
+    <configuration name="Q257_Binary_Tree_Paths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Q257_Binary_Tree_Paths" />
       <module name="Leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hard.*" />
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Q692_Top_K_Frequent_Words" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Q692_Top_K_Frequent_Words" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Q84_Largest_Rectangle_in_Histogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Q84_Largest_Rectangle_in_Histogram" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,15 +324,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Q394_Decode_String" />
-      <item itemvalue="Application.Q642_Design_Search_Autocomplete_System" />
-      <item itemvalue="Application.Q269_Alien_Dictionary" />
+      <item itemvalue="Application.Q257_Binary_Tree_Paths" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Q227_Basic_Calculator_II" />
+      <item itemvalue="Application.Q84_Largest_Rectangle_in_Histogram" />
+      <item itemvalue="Application.Q692_Top_K_Frequent_Words" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q269_Alien_Dictionary" />
-        <item itemvalue="Application.Q394_Decode_String" />
-        <item itemvalue="Application.Q642_Design_Search_Autocomplete_System" />
+        <item itemvalue="Application.Q692_Top_K_Frequent_Words" />
+        <item itemvalue="Application.Q84_Largest_Rectangle_in_Histogram" />
+        <item itemvalue="Application.Q227_Basic_Calculator_II" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Q257_Binary_Tree_Paths" />
       </list>
     </recent_temporary>
   </component>
@@ -235,48 +358,48 @@
     <option name="totallyTimeSpent" value="886000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1376" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1396" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32943678" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.5678705" />
       <window_info id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="11" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32793522" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24408469" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33717948" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32837406" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.29251012" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.2923077" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47563806" visible="true" weight="0.2122093" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48589742" visible="true" weight="0.14032497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36737236" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Build Variants" order="4" sideWeight="0.52436197" side_tool="true" weight="0.23723939" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Preview" order="10" weight="0.32991362" />
-      <window_info anchor="bottom" id="Buck" order="7" weight="0.19736843" />
-      <window_info id="Captures" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Android Model" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Android Monitor" order="9" visible="true" weight="0.33704454" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3820513" />
+      <window_info id="Favorites" order="6" sideWeight="0.5141026" side_tool="true" weight="0.21221146" />
       <window_info anchor="right" id="Gradle" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3674089" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Gradle Console" order="13" side_tool="true" />
+      <window_info anchor="right" id="Android Model" order="7" side_tool="true" />
+      <window_info id="Build Variants" order="4" sideWeight="0.52436197" side_tool="true" weight="0.23723939" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Android Monitor" order="9" visible="true" weight="0.33704454" />
+      <window_info id="Captures" order="3" weight="0.25" />
       <window_info anchor="bottom" id="CheckStyle" order="11" weight="0.3298292" />
       <window_info anchor="right" id="Fabric" order="9" />
+      <window_info anchor="right" id="Preview" order="10" weight="0.32991362" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3674089" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.56666666" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Buck" order="7" weight="0.19736843" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,127 +418,402 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hard/Q269_Alien_Dictionary.java</url>
-          <line>51</line>
+          <line>43</line>
           <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hard/Q269_Alien_Dictionary.java</url>
+          <url>file://$PROJECT_DIR$/src/medium/Q533_Lonely_Pixel_II.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q533_Lonely_Pixel_II.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q359_3Sum_Smaller.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q359_3Sum_Smaller.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q802_Find_Eventual_Safe_States.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q616_Add_Bold_Tag_in_String.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q616_Add_Bold_Tag_in_String.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q792_Number_of_Matching_Subsequences.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q792_Number_of_Matching_Subsequences.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q658_Find_K_Closest_Elements.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q48_Rotate_Image.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q165_Compare_Version_Numbers.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q640_Solve_the_Equation.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Q242_Valid_Anagram.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hard/Q632_Smallest_Range.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q648_Replace_Words.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q648_Replace_Words.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hard/Q41_First_Missing_Positive.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hard/Q41_First_Missing_Positive.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hard/Q301_Remove_Invalid_Parentheses.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hard/Q218_The_Skyline_Problem.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hard/Q431_Encode_N_ary_Tree_to_Binary_Tree.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hard/Q431_Encode_N_ary_Tree_to_Binary_Tree.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Q728_Self_Dividing_Numbers.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Q716_Max_Stack.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Q716_Max_Stack.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Q716_Max_Stack.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Q716_Max_Stack.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q698_Partition_to_K_Equal_Sum_Subsets.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q698_Partition_to_K_Equal_Sum_Subsets.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedin/Max_Points_on_a_Line.java</url>
           <line>25</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q22_Generate_Parentheses.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q8_String_to_Integer.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Q257_Binary_Tree_Paths.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Q257_Binary_Tree_Paths.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q227_Basic_Calculator_II.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q84_Largest_Rectangle_in_Histogram.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q692_Top_K_Frequent_Words.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q692_Top_K_Frequent_Words.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Q692_Top_K_Frequent_Words.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="110" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>map.get(keys.get(i)) == pivot &amp;&amp; keys.get(start).compareTo(keys.get(i)) &gt; 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>keys.get(start).compareTo(keys.get(i))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map.get(keys.get(i)) == pivot</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String.valueOf(orig)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String.valueOf(orig).contains(&quot;0&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>orig % digit</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Integer.MAX_VALUE &lt; nums.length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Integer.MAX_VALUE</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chars[0] == ch</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hard/Q642_Design_Search_Autocomplete_System.java">
+    <entry file="file://$PROJECT_DIR$/src/linkedin/NearestPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        <state relative-caret-position="1173">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/Q218_The_Skyline_Problem.java">
+    <entry file="file://$PROJECT_DIR$/src/medium/Q241_Different_Ways_to_Add_Parentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/Q642_Design_Search_Autocomplete_System.java">
+    <entry file="file://$PROJECT_DIR$/src/medium/Q227_Basic_Calculator_II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
+        <state relative-caret-position="1802">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/medium/Q1_Two_Sum.java">
+    <entry file="file://$PROJECT_DIR$/src/medium/Q84_Largest_Rectangle_in_Histogram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/command/MacroCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/observer/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/command/MacroCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/medium/Q1_Two_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leetcode.iml">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/observer/pub_sub/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode.iml">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/observer/pub_sub/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rxjava/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/observer/pub_sub/MyTopic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="884">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/medium/Q394_Decode_String.java">
+    <entry file="file://$PROJECT_DIR$/src/medium/Q84_Largest_Rectangle_in_Histogram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="476">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/Q218_The_Skyline_Problem.java">
+    <entry file="file://$PROJECT_DIR$/src/medium/Q227_Basic_Calculator_II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="699">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Q241_Different_Ways_to_Add_Parentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedin/NearestPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Q692_Top_K_Frequent_Words.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/Q642_Design_Search_Autocomplete_System.java">
+    <entry file="file://$PROJECT_DIR$/src/basic/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/Q269_Alien_Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2310#2311#0" expanded="true" />
-            <element signature="e#2392#2393#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="663">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="29" />
         </state>
       </provider>
     </entry>

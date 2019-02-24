@@ -1,6 +1,7 @@
 package hard;
 
 public class Q730_Count_Different_Palindromic_Subsequences {
+    private static final int MOD = (int) Math.pow(10, 9) + 7;
 
     public static int countPalindromicSubsequences(String S) {
         if (S == null || S.isEmpty()) {
@@ -33,7 +34,7 @@ public class Q730_Count_Different_Palindromic_Subsequences {
                 } else {
                     dp[i][j] = dp[i + 1][j] + dp[i][j - 1] - dp[i + 1][j - 1];
                 }
-                dp[i][j] = dp[i][j] < 0 ? dp[i][j] + 1000000007 : dp[i][j] % 1000000007;
+                dp[i][j] = dp[i][j] < 0 ? dp[i][j] + MOD : dp[i][j] % MOD;
             }
         }
         return dp[0][len - 1];

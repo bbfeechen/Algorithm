@@ -9,22 +9,21 @@ public class Q22_Generate_Parentheses {
         if(n == 0) {
             return result;
         }
-        helper(result, "", n, n);
+        helper(result, "", 0, 0, n);
         return result;
     }
     
-    private static void helper(List<String> result, String solution, int leftNum, int rightNum) {
-        if(leftNum == 0 && rightNum == 0) {
+    private static void helper(List<String> result, String solution, int leftNum, int rightNum, int n) {
+        if(solution.length() == 2 * n) {
             result.add(solution);
             return;
         }
-        if(leftNum > 0) {
-            helper(result, solution + "(", leftNum - 1, rightNum);
+        if(leftNum < n) {
+            helper(result, solution + "(", leftNum +  1, rightNum, n);
         }
-        if(rightNum > 0 && rightNum > leftNum) {
-            helper(result, solution + ")", leftNum, rightNum - 1);
+        if(rightNum < leftNum) {
+            helper(result, solution + ")", leftNum, rightNum + 1, n);
         }
-        return;
     }
 
 	public static void main(String[] args) {

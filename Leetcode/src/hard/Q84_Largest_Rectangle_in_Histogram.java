@@ -15,6 +15,7 @@ public class Q84_Largest_Rectangle_in_Histogram {
             while(!stack.isEmpty() && curr <= height[stack.peek()]) {
                 int h = height[stack.pop()];
                 int w = stack.isEmpty() ? i : i - stack.peek() - 1;
+                System.out.println(h + " x " + w + " = " + h * w);
                 maxArea = Math.max(maxArea, h * w);
             }
             stack.push(i);
