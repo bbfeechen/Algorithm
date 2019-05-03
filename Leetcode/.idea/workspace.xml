@@ -2,40 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f31eed-5be8-4723-bb06-d2897dbdaeaf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/ActiveObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/ActiveObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/ActiveObjectQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/DisplayClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/DisplayStringRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/FutureResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/MakeStringRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/MakerClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/MethodRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/RealResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/SchedulerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/active_object/Servant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/future/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/future/FutureData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/future/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/future/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/future/RealData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/thread_per_message/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/thread_per_message/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/thread_per_message/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/thread_specific_storage/ClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/thread_specific_storage/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/thread_specific_storage/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/thread_specific_storage/TSLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/two_phase_termination/CountupThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/two_phase_termination/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/worker_thread/Channel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/worker_thread/ClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/worker_thread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/worker_thread/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithread_designpattern/worker_thread/WorkerThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,106 +16,7 @@
     <favorites_list name="Leetcode" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/Proxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-              <folding>
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/ActiveObjectFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/DisplayClientThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/MakerClientThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/Servant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/MakeStringRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/FutureResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/DisplayStringRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-              <folding>
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -238,9 +105,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1397" />
+    <option name="width" value="1396" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -249,7 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -318,13 +184,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="TreeNode&#9;PSI&#9;JAVA://basic.BinarySearchTree.TreeNode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553215516743" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553215623016" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/v0.10.32/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -447,9 +314,9 @@
     <list>
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -479,10 +346,9 @@
     <option name="totallyTimeSpent" value="886000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1396" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1396" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48176584" visible="true" weight="0.2703102" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48176584" visible="true" weight="0.27400294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Captures" order="3" weight="0.25" />
@@ -505,9 +371,8 @@
       <window_info anchor="bottom" id="CheckStyle" order="11" weight="0.3298292" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.2923077" />
       <window_info anchor="bottom" id="Gradle Console" order="13" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.5656051" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.5656051" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -522,6 +387,7 @@
       <window_info anchor="right" id="Fabric" order="11" />
       <window_info anchor="right" id="Preview" order="12" weight="0.32991362" />
       <window_info anchor="right" id="Capture Analysis" order="13" />
+      <window_info anchor="right" id="Maven" order="14" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1180,28 +1046,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/FutureResult.java">
+    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/MakeStringRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/MakerClientThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="374">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/DisplayStringRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/DisplayClientThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding>
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/ActiveObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1216,6 +1085,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/Servant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1223,38 +1099,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/ActiveObjectFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/MakeStringRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/DisplayClientThread.java">
+    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/FutureResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/MakerClientThread.java">
+    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/DisplayStringRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/Servant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithread_designpattern/active_object/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
